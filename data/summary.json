@@ -1,0 +1,67 @@
+{
+ "python": "3.13.18",
+ "pretrain": {
+  "stdlib_files": 337,
+  "third_party_files": 3084,
+  "third_party_dropped_for_leak": 170,
+  "train_chars": 49481768,
+  "valid_chars": 1777597,
+  "heldout_signatures": 1124,
+  "removed_for_def_leak": {
+   "test": 2
+  }
+ },
+ "task": {
+  "train": {
+   "examples": 2036,
+   "modules": 114,
+   "complex_default_share": 0.092,
+   "n_params": {
+    "1": 30,
+    "2": 815,
+    "3": 588,
+    "4": 290,
+    "5": 147,
+    "6": 72,
+    "7": 44,
+    "8": 31,
+    "9": 13,
+    "10": 6
+   }
+  },
+  "val": {
+   "examples": 324,
+   "modules": 8,
+   "complex_default_share": 0.04,
+   "n_params": {
+    "1": 28,
+    "2": 100,
+    "3": 80,
+    "4": 39,
+    "5": 32,
+    "6": 20,
+    "7": 9,
+    "8": 9,
+    "9": 2,
+    "10": 5
+   }
+  },
+  "test": {
+   "examples": 798,
+   "modules": 38,
+   "complex_default_share": 0.11,
+   "n_params": {
+    "1": 30,
+    "2": 285,
+    "3": 210,
+    "4": 133,
+    "5": 72,
+    "6": 34,
+    "7": 19,
+    "8": 11,
+    "9": 1,
+    "10": 3
+   }
+  }
+ }
+}

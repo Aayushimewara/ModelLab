@@ -1,0 +1,798 @@
+{"sig": "fd, parent_sentinel", "target": "req: fd, parent_sentinel | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "lang", "target": "req: lang | opt: - | var: -", "n_params": 1, "complex": false, "module": "turtle"}
+{"sig": "self, start, end", "target": "req: self, start, end | opt: - | var: -", "n_params": 3, "complex": false, "module": "ast"}
+{"sig": "self, conn, dumps, loads", "target": "req: self, conn, dumps, loads | opt: - | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, name, failobj=None", "target": "req: self, name | opt: failobj | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "self, _in, _out", "target": "req: self, _in, _out | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "size, dupfd", "target": "req: size, dupfd | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, fallback", "target": "req: self, fallback | opt: - | var: -", "n_params": 2, "complex": false, "module": "gettext"}
+{"sig": "self, key, data, handler", "target": "req: self, key, data, handler | opt: - | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "authkey, message, response", "target": "req: authkey, message, response | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, delay=None", "target": "req: self | opt: delay | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "self, encoding=None", "target": "req: self | opt: encoding | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, filename, flag='c', protocol=None, writeback=False", "target": "req: self, filename | opt: flag, protocol, writeback | var: -", "n_params": 5, "complex": true, "module": "shelve"}
+{"sig": "self, prefix", "target": "req: self, prefix | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "node, annotate_fields=True, include_attributes=False, *, indent=None, show_empty=False", "target": "req: node | opt: annotate_fields, include_attributes, indent, show_empty | var: -", "n_params": 5, "complex": false, "module": "ast"}
+{"sig": "self, name, encoding, errors", "target": "req: self, name, encoding, errors | opt: - | var: -", "n_params": 4, "complex": false, "module": "tarfile"}
+{"sig": "self, linesep", "target": "req: self, linesep | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "node, n=1", "target": "req: node | opt: n | var: -", "n_params": 2, "complex": false, "module": "ast"}
+{"sig": "name, import_", "target": "req: name, import_ | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "value, errors='replace', fallback_charset='us-ascii'", "target": "req: value | opt: errors, fallback_charset | var: -", "n_params": 3, "complex": true, "module": "email"}
+{"sig": "scheme=get_default_scheme(), vars=None, expand=True", "target": "req: - | opt: scheme, vars, expand | var: -", "n_params": 3, "complex": true, "module": "sysconfig"}
+{"sig": "self, send, close", "target": "req: self, send, close | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, authreq, host, req, headers", "target": "req: self, authreq, host, req, headers | opt: - | var: -", "n_params": 5, "complex": false, "module": "urllib"}
+{"sig": "self, s, idx=0", "target": "req: self, s | opt: idx | var: -", "n_params": 3, "complex": false, "module": "json"}
+{"sig": "self, result_item", "target": "req: self, result_item | opt: - | var: -", "n_params": 2, "complex": false, "module": "concurrent"}
+{"sig": "d, sort_keys, skipkeys", "target": "req: d, sort_keys, skipkeys | opt: - | var: -", "n_params": 3, "complex": false, "module": "plistlib"}
+{"sig": "self, payload, charset=None", "target": "req: self, payload | opt: charset | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "self, fp, sort_keys, skipkeys, aware_datetime=False", "target": "req: self, fp, sort_keys, skipkeys | opt: aware_datetime | var: -", "n_params": 5, "complex": false, "module": "plistlib"}
+{"sig": "self, fun, key", "target": "req: self, fun, key | opt: - | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "data, name=None, bytecode_path=None, source_path=None", "target": "req: data | opt: name, bytecode_path, source_path | var: -", "n_params": 4, "complex": false, "module": "importlib"}
+{"sig": "self, size=mmap.PAGESIZE", "target": "req: self | opt: size | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, name, mode='r', pwd=None, *, force_zip64=False", "target": "req: self, name | opt: mode, pwd, force_zip64 | var: -", "n_params": 5, "complex": true, "module": "zipfile"}
+{"sig": "timeout=CONNECTION_TIMEOUT", "target": "req: - | opt: timeout | var: -", "n_params": 1, "complex": false, "module": "multiprocessing"}
+{"sig": "self, boundary", "target": "req: self, boundary | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "title, data", "target": "req: title, data | opt: - | var: -", "n_params": 2, "complex": false, "module": "sysconfig"}
+{"sig": "default=''", "target": "req: - | opt: default | var: -", "n_params": 1, "complex": true, "module": "platform"}
+{"sig": "browser, *, preferred=False", "target": "req: browser | opt: preferred | var: -", "n_params": 2, "complex": false, "module": "webbrowser"}
+{"sig": "self, path: StrPath", "target": "req: self, path | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "source_bytes", "target": "req: source_bytes | opt: - | var: -", "n_params": 1, "complex": false, "module": "importlib"}
+{"sig": "self, func, iterable, mapper, chunksize=None, callback=None, error_callback=None", "target": "req: self, func, iterable, mapper | opt: chunksize, callback, error_callback | var: -", "n_params": 7, "complex": false, "module": "multiprocessing"}
+{"sig": "self, sequences", "target": "req: self, sequences | opt: - | var: -", "n_params": 2, "complex": false, "module": "mailbox"}
+{"sig": "cls, hour=0, minute=0, second=0, microsecond=0, tzinfo=None, *, fold=0", "target": "req: cls | opt: hour, minute, second, microsecond, tzinfo, fold | var: -", "n_params": 7, "complex": false, "module": "_pydatetime"}
+{"sig": "self, handle, readable=True, writable=True", "target": "req: self, handle | opt: readable, writable | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, label", "target": "req: self, label | opt: - | var: -", "n_params": 2, "complex": false, "module": "mailbox"}
+{"sig": "self, path: Text", "target": "req: self, path | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, address=None, family=None, backlog=1, authkey=None", "target": "req: self | opt: address, family, backlog, authkey | var: -", "n_params": 5, "complex": false, "module": "multiprocessing"}
+{"sig": "self, tarinfo, targetpath, numeric_owner", "target": "req: self, tarinfo, targetpath, numeric_owner | opt: - | var: -", "n_params": 4, "complex": false, "module": "tarfile"}
+{"sig": "x, memo, deepcopy=deepcopy", "target": "req: x, memo | opt: deepcopy | var: -", "n_params": 3, "complex": false, "module": "copy"}
+{"sig": "b, chars, chars2, pad=False, foldnuls=False, foldspaces=False", "target": "req: b, chars, chars2 | opt: pad, foldnuls, foldspaces | var: -", "n_params": 6, "complex": false, "module": "base64"}
+{"sig": "self, ns_stack, _reversed=reversed", "target": "req: self, ns_stack | opt: _reversed | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, *exc_details", "target": "req: self | opt: - | var: *exc_details", "n_params": 2, "complex": false, "module": "contextlib"}
+{"sig": "anchor, *path_names", "target": "req: anchor | opt: - | var: *path_names", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "mod_name, init_globals=None, run_name=None, alter_sys=False", "target": "req: mod_name | opt: init_globals, run_name, alter_sys | var: -", "n_params": 4, "complex": false, "module": "runpy"}
+{"sig": "tag, event=event_name, append=append, end=self._end", "target": "req: tag | opt: event, append, end | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "object, format, timetuple", "target": "req: object, format, timetuple | opt: - | var: -", "n_params": 3, "complex": false, "module": "_pydatetime"}
+{"sig": "self, labels", "target": "req: self, labels | opt: - | var: -", "n_params": 2, "complex": false, "module": "mailbox"}
+{"sig": "f, dotlock=True", "target": "req: f | opt: dotlock | var: -", "n_params": 2, "complex": false, "module": "mailbox"}
+{"sig": "params", "target": "req: params | opt: - | var: -", "n_params": 1, "complex": false, "module": "email"}
+{"sig": "parts, indent, prefix=None", "target": "req: parts, indent | opt: prefix | var: -", "n_params": 3, "complex": false, "module": "argparse"}
+{"sig": "self, address, family, backlog=1", "target": "req: self, address, family | opt: backlog | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, param, header='content-type', requote=True", "target": "req: self, param | opt: header, requote | var: -", "n_params": 4, "complex": true, "module": "email"}
+{"sig": "file, parser=None, bufsize=None", "target": "req: file | opt: parser, bufsize | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "path, args, passfds", "target": "req: path, args, passfds | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, name, publicId, systemId, notation", "target": "req: self, name, publicId, systemId, notation | opt: - | var: -", "n_params": 5, "complex": false, "module": "xml"}
+{"sig": "self, msg, *args, **kw", "target": "req: self, msg | opt: - | var: *args, **kw", "n_params": 4, "complex": false, "module": "email"}
+{"sig": "self, position, fmt_as_str, value", "target": "req: self, position, fmt_as_str, value | opt: - | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "host, proxies=None", "target": "req: host | opt: proxies | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "data, source_hash, name, exc_details", "target": "req: data, source_hash, name, exc_details | opt: - | var: -", "n_params": 4, "complex": false, "module": "importlib"}
+{"sig": "data, name, exc_details", "target": "req: data, name, exc_details | opt: - | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "cls, *loader_details", "target": "req: cls | opt: - | var: *loader_details", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, ref", "target": "req: self, ref | opt: - | var: -", "n_params": 2, "complex": false, "module": "plistlib"}
+{"sig": "self, startval=None", "target": "req: self | opt: startval | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, name, arcname=None, recursive=True, *, filter=None", "target": "req: self, name | opt: arcname, recursive, filter | var: -", "n_params": 5, "complex": false, "module": "tarfile"}
+{"sig": "self, mode='r', *args, **kwargs", "target": "req: self | opt: mode | var: *args, **kwargs", "n_params": 4, "complex": true, "module": "importlib"}
+{"sig": "typecode, sequence, lock=True", "target": "req: typecode, sequence | opt: lock | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "cls, pax_headers", "target": "req: cls, pax_headers | opt: - | var: -", "n_params": 2, "complex": false, "module": "tarfile"}
+{"sig": "self, _close=os.close", "target": "req: self | opt: _close | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "callback, /, *args, **kwds", "target": "req: callback | opt: - | var: *args, **kwds", "n_params": 3, "complex": false, "module": "contextlib"}
+{"sig": "self, _subtype='mixed', boundary=None, _subparts=None, *, policy=None, **_params", "target": "req: self | opt: _subtype, boundary, _subparts, policy | var: **_params", "n_params": 6, "complex": true, "module": "email"}
+{"sig": "self, outfp, mangle_from_=None, maxheaderlen=None, fmt=None, *, policy=None", "target": "req: self, outfp | opt: mangle_from_, maxheaderlen, fmt, policy | var: -", "n_params": 6, "complex": false, "module": "email"}
+{"sig": "self, url, fp, errcode, errmsg, headers, data=None", "target": "req: self, url, fp, errcode, errmsg, headers | opt: data | var: -", "n_params": 7, "complex": false, "module": "urllib"}
+{"sig": "self, format_spec", "target": "req: self, format_spec | opt: - | var: -", "n_params": 2, "complex": false, "module": "enum"}
+{"sig": "self, linkname", "target": "req: self, linkname | opt: - | var: -", "n_params": 2, "complex": false, "module": "tarfile"}
+{"sig": "octet", "target": "req: octet | opt: - | var: -", "n_params": 1, "complex": false, "module": "email"}
+{"sig": "self, fn, /, *args, **kwargs", "target": "req: self, fn | opt: - | var: *args, **kwargs", "n_params": 4, "complex": false, "module": "concurrent"}
+{"sig": "self, group=None, target=None, name=None, args=(), kwargs={}, *, daemon=None", "target": "req: self | opt: group, target, name, args, kwargs, daemon | var: -", "n_params": 7, "complex": true, "module": "multiprocessing"}
+{"sig": "cls, /, *args, **kwargs", "target": "req: cls | opt: - | var: *args, **kwargs", "n_params": 3, "complex": false, "module": "warnings"}
+{"sig": "self, xscalefactor, yscalefactor", "target": "req: self, xscalefactor, yscalefactor | opt: - | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "self, file, indent_level=0, indent='\\t'", "target": "req: self, file | opt: indent_level, indent | var: -", "n_params": 4, "complex": true, "module": "plistlib"}
+{"sig": "self, argument, message", "target": "req: self, argument, message | opt: - | var: -", "n_params": 3, "complex": false, "module": "argparse"}
+{"sig": "self, url, filename=None, reporthook=None, data=None", "target": "req: self, url | opt: filename, reporthook, data | var: -", "n_params": 5, "complex": false, "module": "urllib"}
+{"sig": "self, t11=None, t12=None, t21=None, t22=None", "target": "req: self | opt: t11, t12, t21, t22 | var: -", "n_params": 5, "complex": false, "module": "turtle"}
+{"sig": "self, duplex=True", "target": "req: self | opt: duplex | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "p, m={}", "target": "req: p | opt: m | var: -", "n_params": 2, "complex": true, "module": "pkgutil"}
+{"sig": "self, seps: str=_default_seps", "target": "req: self | opt: seps | var: -", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "mode, file, args, env", "target": "req: mode, file, args, env | opt: - | var: -", "n_params": 4, "complex": false, "module": "os"}
+{"sig": "method, cache_wrapper=None", "target": "req: method | opt: cache_wrapper | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "cls, t", "target": "req: cls, t | opt: - | var: -", "n_params": 2, "complex": false, "module": "_pydatetime"}
+{"sig": "self, deep", "target": "req: self, deep | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, snode", "target": "req: self, snode | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, dict, protocol=None, writeback=False, keyencoding='utf-8'", "target": "req: self, dict | opt: protocol, writeback, keyencoding | var: -", "n_params": 5, "complex": true, "module": "shelve"}
+{"sig": "*path_parts", "target": "req: - | opt: - | var: *path_parts", "n_params": 1, "complex": false, "module": "importlib"}
+{"sig": "cls, _dict", "target": "req: cls, _dict | opt: - | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "uid", "target": "req: uid | opt: - | var: -", "n_params": 1, "complex": false, "module": "netrc"}
+{"sig": "self, resource: Any", "target": "req: self, resource | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, key, flags: str", "target": "req: self, key, flags | opt: - | var: -", "n_params": 3, "complex": false, "module": "mailbox"}
+{"sig": "self, module_names", "target": "req: self, module_names | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "file, *args", "target": "req: file | opt: - | var: *args", "n_params": 2, "complex": false, "module": "os"}
+{"sig": "self, prefixed_name", "target": "req: self, prefixed_name | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "outqueue, get, cache", "target": "req: outqueue, get, cache | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "prefix, uri, event=event_name, append=append, start_ns=self._start_ns", "target": "req: prefix, uri | opt: event, append, start_ns | var: -", "n_params": 5, "complex": false, "module": "xml"}
+{"sig": "self, exctype, excinst, exctb", "target": "req: self, exctype, excinst, exctb | opt: - | var: -", "n_params": 4, "complex": false, "module": "contextlib"}
+{"sig": "message, category, filename, lineno, line=None", "target": "req: message, category, filename, lineno | opt: line | var: -", "n_params": 5, "complex": false, "module": "warnings"}
+{"sig": "self, splitter=' ', maxsplit=0", "target": "req: self | opt: splitter, maxsplit | var: -", "n_params": 3, "complex": true, "module": "importlib"}
+{"sig": "self, tagName, model=None", "target": "req: self, tagName | opt: model | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, content", "target": "req: self, content | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, arg, frame=None", "target": "req: self, arg | opt: frame | var: -", "n_params": 3, "complex": false, "module": "pdb"}
+{"sig": "self, callback, /, *args, **kwds", "target": "req: self, callback | opt: - | var: *args, **kwds", "n_params": 4, "complex": false, "module": "contextlib"}
+{"sig": "rmtree, tempdir", "target": "req: rmtree, tempdir | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, image", "target": "req: self, image | opt: - | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "iterable, key=None", "target": "req: iterable | opt: key | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, dest", "target": "req: self, dest | opt: - | var: -", "n_params": 2, "complex": false, "module": "argparse"}
+{"sig": "self, address=None, authkey=None, serializer='pickle', ctx=None, *, shutdown_timeout=1.0", "target": "req: self | opt: address, authkey, serializer, ctx, shutdown_timeout | var: -", "n_params": 6, "complex": true, "module": "multiprocessing"}
+{"sig": "docstr", "target": "req: docstr | opt: - | var: -", "n_params": 1, "complex": false, "module": "turtle"}
+{"sig": "info=info, debug=debug, _run_finalizers=_run_finalizers, active_children=process.active_children, current_process=process.current_process", "target": "req: - | opt: info, debug, _run_finalizers, active_children, current_process | var: -", "n_params": 5, "complex": false, "module": "multiprocessing"}
+{"sig": "connection, authkey: bytes, digest_name='sha256'", "target": "req: connection, authkey | opt: digest_name | var: -", "n_params": 3, "complex": true, "module": "multiprocessing"}
+{"sig": "self, *descendants: StrPath", "target": "req: self | opt: - | var: *descendants", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, reduction", "target": "req: self, reduction | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, fullurl, data=None, timeout=socket._GLOBAL_DEFAULT_TIMEOUT", "target": "req: self, fullurl | opt: data, timeout | var: -", "n_params": 4, "complex": false, "module": "urllib"}
+{"sig": "self, arg_string", "target": "req: self, arg_string | opt: - | var: -", "n_params": 2, "complex": false, "module": "argparse"}
+{"sig": "num, max_bits=None", "target": "req: num | opt: max_bits | var: -", "n_params": 2, "complex": false, "module": "enum"}
+{"sig": "self, target, data", "target": "req: self, target, data | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, srx1, sry1, srx2, sry2", "target": "req: self, srx1, sry1, srx2, sry2 | opt: - | var: -", "n_params": 5, "complex": false, "module": "turtle"}
+{"sig": "self, byteStream", "target": "req: self, byteStream | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "cls, name=None, mode='r', fileobj=None, bufsize=RECORDSIZE, **kwargs", "target": "req: cls | opt: name, mode, fileobj, bufsize | var: **kwargs", "n_params": 6, "complex": true, "module": "tarfile"}
+{"sig": "n, alignment", "target": "req: n, alignment | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, log_write, level, **kwargs", "target": "req: self, log_write, level | opt: - | var: **kwargs", "n_params": 4, "complex": false, "module": "_apple_support"}
+{"sig": "self, _subtype, *args, _disp=None, **kw", "target": "req: self, _subtype | opt: _disp | var: *args, **kw", "n_params": 5, "complex": false, "module": "email"}
+{"sig": "path_item", "target": "req: path_item | opt: - | var: -", "n_params": 1, "complex": false, "module": "pkgutil"}
+{"sig": "self, _text, _subtype='plain', _charset=None, *, policy=None", "target": "req: self, _text | opt: _subtype, _charset, policy | var: -", "n_params": 5, "complex": true, "module": "email"}
+{"sig": "self, realm, authuri", "target": "req: self, realm, authuri | opt: - | var: -", "n_params": 3, "complex": false, "module": "urllib"}
+{"sig": "url, filename=None, reporthook=None, data=None", "target": "req: url | opt: filename, reporthook, data | var: -", "n_params": 4, "complex": false, "module": "urllib"}
+{"sig": "self, path: str | os.PathLike[str]", "target": "req: self, path | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "ds, readable, writable", "target": "req: ds, readable, writable | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, fp, closehook, *hookargs", "target": "req: self, fp, closehook | opt: - | var: *hookargs", "n_params": 4, "complex": false, "module": "urllib"}
+{"sig": "self, unixfrom=False, policy=None", "target": "req: self | opt: unixfrom, policy | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "self, unixfrom=False, maxheaderlen=0, policy=None", "target": "req: self | opt: unixfrom, maxheaderlen, policy | var: -", "n_params": 4, "complex": false, "module": "email"}
+{"sig": "minpriority=None", "target": "req: - | opt: minpriority | var: -", "n_params": 1, "complex": false, "module": "multiprocessing"}
+{"sig": "buf", "target": "req: buf | opt: - | var: -", "n_params": 1, "complex": false, "module": "tarfile"}
+{"sig": "filename='turtle_docstringdict'", "target": "req: - | opt: filename | var: -", "n_params": 1, "complex": true, "module": "turtle"}
+{"sig": "self, typecode, value, lock=True", "target": "req: self, typecode, value | opt: lock | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, x, y=None", "target": "req: self, x | opt: y | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "name, package=None, level=0", "target": "req: name | opt: package, level | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "message, *args, verbosity=1", "target": "req: message | opt: verbosity | var: *args", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "self, _maintype, _subtype, *, policy=None, **_params", "target": "req: self, _maintype, _subtype | opt: policy | var: **_params", "n_params": 5, "complex": false, "module": "email"}
+{"sig": "self, option_strings, dest, default=True, required=False, help=None, deprecated=False", "target": "req: self, option_strings, dest | opt: default, required, help, deprecated | var: -", "n_params": 7, "complex": false, "module": "argparse"}
+{"sig": "self, cls_name=None", "target": "req: self | opt: cls_name | var: -", "n_params": 2, "complex": false, "module": "enum"}
+{"sig": "sections", "target": "req: sections | opt: - | var: -", "n_params": 1, "complex": false, "module": "importlib"}
+{"sig": "self, name, *, parse_tree, defects", "target": "req: self, name, parse_tree, defects | opt: - | var: -", "n_params": 4, "complex": false, "module": "email"}
+{"sig": "name, package=None", "target": "req: name | opt: package | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "top='.', topdown=True, onerror=None, *, follow_symlinks=False, dir_fd=None", "target": "req: - | opt: top, topdown, onerror, follow_symlinks, dir_fd | var: -", "n_params": 5, "complex": true, "module": "os"}
+{"sig": "ch, crc", "target": "req: ch, crc | opt: - | var: -", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "self, indent='\\t', newl='\\n', encoding=None, standalone=None", "target": "req: self | opt: indent, newl, encoding, standalone | var: -", "n_params": 5, "complex": true, "module": "xml"}
+{"sig": "self, qName, namespaceURI=EMPTY_NAMESPACE, localName=None, prefix=None", "target": "req: self, qName | opt: namespaceURI, localName, prefix | var: -", "n_params": 5, "complex": false, "module": "xml"}
+{"sig": "cls, t, utc, tz", "target": "req: cls, t, utc, tz | opt: - | var: -", "n_params": 4, "complex": false, "module": "_pydatetime"}
+{"sig": "pipe_handle, parent_pid=None, tracker_fd=None", "target": "req: pipe_handle | opt: parent_pid, tracker_fd | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "elem, default_namespace=None", "target": "req: elem | opt: default_namespace | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "prefix, uri, event=event_name, append=append", "target": "req: prefix, uri | opt: event, append | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "self, _CloseHandle=_winapi.CloseHandle", "target": "req: self | opt: _CloseHandle | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "typecode_or_type, *args, lock=True, ctx=None", "target": "req: typecode_or_type | opt: lock, ctx | var: *args", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, param, value, header='Content-Type', requote=True, charset=None, language='', replace=False", "target": "req: self, param, value | opt: header, requote, charset, language, replace | var: -", "n_params": 8, "complex": true, "module": "email"}
+{"sig": "cfgdict", "target": "req: cfgdict | opt: - | var: -", "n_params": 1, "complex": false, "module": "turtle"}
+{"sig": "table, *keys", "target": "req: table | opt: - | var: *keys", "n_params": 2, "complex": false, "module": "platform"}
+{"sig": "self, registry_name, value, default=None", "target": "req: self, registry_name, value | opt: default | var: -", "n_params": 4, "complex": false, "module": "argparse"}
+{"sig": "reader, suffix='', *, _os_remove=os.remove", "target": "req: reader | opt: suffix, _os_remove | var: -", "n_params": 3, "complex": true, "module": "importlib"}
+{"sig": "self, max_workers=None, thread_name_prefix='', initializer=None, initargs=()", "target": "req: self | opt: max_workers, thread_name_prefix, initializer, initargs | var: -", "n_params": 5, "complex": true, "module": "concurrent"}
+{"sig": "self, name, system, pubid, has_internal_subset", "target": "req: self, name, system, pubid, has_internal_subset | opt: - | var: -", "n_params": 5, "complex": false, "module": "xml"}
+{"sig": "ipAddr", "target": "req: ipAddr | opt: - | var: -", "n_params": 1, "complex": false, "module": "urllib"}
+{"sig": "self, cv", "target": "req: self, cv | opt: - | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "cls, *, context: Optional[DistributionFinder.Context]=None, **kwargs", "target": "req: cls | opt: context | var: **kwargs", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "self, angle", "target": "req: self, angle | opt: - | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "self, container", "target": "req: self, container | opt: - | var: -", "n_params": 2, "complex": false, "module": "argparse"}
+{"sig": "minuend, subtrahend", "target": "req: minuend, subtrahend | opt: - | var: -", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "expression, globals=None, locals=None", "target": "req: expression | opt: globals, locals | var: -", "n_params": 3, "complex": false, "module": "pdb"}
+{"sig": "typecode_or_type, size_or_initializer", "target": "req: typecode_or_type, size_or_initializer | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, name: str, failobj: None=None", "target": "req: self, name | opt: failobj | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "self, exc_type, exc_value, traceback", "target": "req: self, exc_type, exc_value, traceback | opt: - | var: -", "n_params": 4, "complex": false, "module": "contextlib"}
+{"sig": "categories=categories", "target": "req: - | opt: categories | var: -", "n_params": 1, "complex": false, "module": "locale"}
+{"sig": "item", "target": "req: item | opt: - | var: -", "n_params": 1, "complex": false, "module": "ast"}
+{"sig": "self, name, shape=None", "target": "req: self, name | opt: shape | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "node, lineno, col_offset, end_lineno, end_col_offset", "target": "req: node, lineno, col_offset, end_lineno, end_col_offset | opt: - | var: -", "n_params": 5, "complex": false, "module": "ast"}
+{"sig": "string: bytes | bytearray | str", "target": "req: string | opt: - | var: -", "n_params": 1, "complex": false, "module": "urllib"}
+{"sig": "self, master, width=500, height=350, canvwidth=600, canvheight=500", "target": "req: self, master | opt: width, height, canvwidth, canvheight | var: -", "n_params": 6, "complex": false, "module": "turtle"}
+{"sig": "self, fun, t", "target": "req: self, fun, t | opt: - | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "self, pool, chunksize, length, callback, error_callback", "target": "req: self, pool, chunksize, length, callback, error_callback | opt: - | var: -", "n_params": 6, "complex": false, "module": "multiprocessing"}
+{"sig": "self, _data, _subtype='octet-stream', _encoder=encoders.encode_base64, *, policy=None, **_params", "target": "req: self, _data | opt: _subtype, _encoder, policy | var: **_params", "n_params": 6, "complex": true, "module": "email"}
+{"sig": "localetuple", "target": "req: localetuple | opt: - | var: -", "n_params": 1, "complex": false, "module": "locale"}
+{"sig": "self, start, stop", "target": "req: self, start, stop | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "loc", "target": "req: loc | opt: - | var: -", "n_params": 1, "complex": false, "module": "gettext"}
+{"sig": "alias, canonical", "target": "req: alias, canonical | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "category, value=None", "target": "req: category | opt: value | var: -", "n_params": 2, "complex": false, "module": "locale"}
+{"sig": "source, parser=None", "target": "req: source | opt: parser | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, tag, attrs, new_namespaces, qname_text=None", "target": "req: self, tag, attrs, new_namespaces | opt: qname_text | var: -", "n_params": 5, "complex": false, "module": "xml"}
+{"sig": "self, at", "target": "req: self, at | opt: - | var: -", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "path: Traversable", "target": "req: path | opt: - | var: -", "n_params": 1, "complex": false, "module": "importlib"}
+{"sig": "url, scheme='', allow_fragments=True", "target": "req: url | opt: scheme, allow_fragments | var: -", "n_params": 3, "complex": true, "module": "urllib"}
+{"sig": "self, name, base, sysid, pubid", "target": "req: self, name, base, sysid, pubid | opt: - | var: -", "n_params": 5, "complex": false, "module": "xml"}
+{"sig": "self, msg, filename=None, lineno=None", "target": "req: self, msg | opt: filename, lineno | var: -", "n_params": 4, "complex": false, "module": "netrc"}
+{"sig": "self, *descendants", "target": "req: self | opt: - | var: *descendants", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, name, qname, attrs", "target": "req: self, name, qname, attrs | opt: - | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "self, process_obj", "target": "req: self, process_obj | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "sys_module, _imp_module", "target": "req: sys_module, _imp_module | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "ew", "target": "req: ew | opt: - | var: -", "n_params": 1, "complex": false, "module": "email"}
+{"sig": "name: PackagePath", "target": "req: name | opt: - | var: -", "n_params": 1, "complex": false, "module": "importlib"}
+{"sig": "cls, value, **kwargs", "target": "req: cls, value | opt: - | var: **kwargs", "n_params": 3, "complex": false, "module": "ast"}
+{"sig": "self, fullname, path", "target": "req: self, fullname, path | opt: - | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "self, n, size", "target": "req: self, n, size | opt: - | var: -", "n_params": 3, "complex": false, "module": "plistlib"}
+{"sig": "self, host, req, realm", "target": "req: self, host, req, realm | opt: - | var: -", "n_params": 4, "complex": false, "module": "urllib"}
+{"sig": "cls, path_str: str", "target": "req: cls, path_str | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, exc, value", "target": "req: self, exc, value | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "cls, source", "target": "req: cls, source | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, pos, txt, align, font, pencolor", "target": "req: self, pos, txt, align, font, pencolor | opt: - | var: -", "n_params": 6, "complex": false, "module": "turtle"}
+{"sig": "s, pos, _m=HEXDIGITS.match", "target": "req: s, pos | opt: _m | var: -", "n_params": 3, "complex": false, "module": "json"}
+{"sig": "self, typecode_or_type, size_or_initializer", "target": "req: self, typecode_or_type, size_or_initializer | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "value, fp, *, fmt=FMT_XML, sort_keys=True, skipkeys=False, aware_datetime=False", "target": "req: value, fp | opt: fmt, sort_keys, skipkeys, aware_datetime | var: -", "n_params": 6, "complex": false, "module": "plistlib"}
+{"sig": "aliased=False, terse=False", "target": "req: - | opt: aliased, terse | var: -", "n_params": 2, "complex": false, "module": "platform"}
+{"sig": "self, req, fp, code, msg, headers, newurl", "target": "req: self, req, fp, code, msg, headers, newurl | opt: - | var: -", "n_params": 7, "complex": false, "module": "urllib"}
+{"sig": "self, text, context", "target": "req: self, text, context | opt: - | var: -", "n_params": 3, "complex": false, "module": "venv"}
+{"sig": "self, *args, content_manager=None, **kw", "target": "req: self | opt: content_manager | var: *args, **kw", "n_params": 4, "complex": false, "module": "email"}
+{"sig": "self, _close=_multiprocessing.closesocket", "target": "req: self | opt: _close | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "distribution_name: str", "target": "req: distribution_name | opt: - | var: -", "n_params": 1, "complex": false, "module": "importlib"}
+{"sig": "tokenlist, value", "target": "req: tokenlist, value | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, req, proxy, type", "target": "req: self, req, proxy, type | opt: - | var: -", "n_params": 4, "complex": false, "module": "urllib"}
+{"sig": "self, bytefile", "target": "req: self, bytefile | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "parser_name", "target": "req: parser_name | opt: - | var: -", "n_params": 1, "complex": false, "module": "xml"}
+{"sig": "self, actions, groups", "target": "req: self, actions, groups | opt: - | var: -", "n_params": 3, "complex": false, "module": "argparse"}
+{"sig": "fpin", "target": "req: fpin | opt: - | var: -", "n_params": 1, "complex": false, "module": "zipfile"}
+{"sig": "self, exceptions", "target": "req: self, exceptions | opt: - | var: -", "n_params": 2, "complex": false, "module": "pdb"}
+{"sig": "self, source_path, bytecode_path, data", "target": "req: self, source_path, bytecode_path, data | opt: - | var: -", "n_params": 4, "complex": false, "module": "importlib"}
+{"sig": "self, _factory=None, *, policy=compat32", "target": "req: self | opt: _factory, policy | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "self, s=0", "target": "req: self | opt: s | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "self, action, arg_string", "target": "req: self, action, arg_string | opt: - | var: -", "n_params": 3, "complex": false, "module": "argparse"}
+{"sig": "self, element, value=None", "target": "req: self, element | opt: value | var: -", "n_params": 3, "complex": false, "module": "plistlib"}
+{"sig": "self, msg, exception, locator", "target": "req: self, msg, exception, locator | opt: - | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "self, child", "target": "req: self, child | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "token, serializer, manager=None, authkey=None, exposed=None, incref=True, manager_owned=False", "target": "req: token, serializer | opt: manager, authkey, exposed, incref, manager_owned | var: -", "n_params": 7, "complex": false, "module": "multiprocessing"}
+{"sig": "self, parent: ResourceContainer, name: str", "target": "req: self, parent, name | opt: - | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "pool", "target": "req: pool | opt: - | var: -", "n_params": 1, "complex": false, "module": "multiprocessing"}
+{"sig": "self, d", "target": "req: self, d | opt: - | var: -", "n_params": 2, "complex": false, "module": "plistlib"}
+{"sig": "self, path, data", "target": "req: self, path, data | opt: - | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "self, context, msgid1, msgid2, n", "target": "req: self, context, msgid1, msgid2, n | opt: - | var: -", "n_params": 5, "complex": false, "module": "gettext"}
+{"sig": "self, typeid, address, id", "target": "req: self, typeid, address, id | opt: - | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, encoding: str='utf-8'", "target": "req: self | opt: encoding | var: -", "n_params": 2, "complex": true, "module": "importlib"}
+{"sig": "self, f, tb", "target": "req: self, f, tb | opt: - | var: -", "n_params": 3, "complex": false, "module": "pdb"}
+{"sig": "spec, module, *, override=False", "target": "req: spec, module | opt: override | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "self, thread_id, lock", "target": "req: self, thread_id, lock | opt: - | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "y, m, d, hh, mm, ss, dstflag", "target": "req: y, m, d, hh, mm, ss, dstflag | opt: - | var: -", "n_params": 7, "complex": false, "module": "_pydatetime"}
+{"sig": "file_or_filename, encoding", "target": "req: file_or_filename, encoding | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, member, reason", "target": "req: self, member, reason | opt: - | var: -", "n_params": 3, "complex": false, "module": "tarfile"}
+{"sig": "self, public_id", "target": "req: self, public_id | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "string, parser=None", "target": "req: string | opt: parser | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, sequence", "target": "req: self, sequence | opt: - | var: -", "n_params": 2, "complex": false, "module": "mailbox"}
+{"sig": "self, name_or_tuple", "target": "req: self, name_or_tuple | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, fullcircle", "target": "req: self, fullcircle | opt: - | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "self, typekey, handler", "target": "req: self, typekey, handler | opt: - | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "parser_list=()", "target": "req: - | opt: parser_list | var: -", "n_params": 1, "complex": true, "module": "xml"}
+{"sig": "self, shape=_CFG['shape'], undobuffersize=_CFG['undobuffersize'], visible=_CFG['visible']", "target": "req: self | opt: shape, undobuffersize, visible | var: -", "n_params": 4, "complex": true, "module": "turtle"}
+{"sig": "qualifiedName", "target": "req: qualifiedName | opt: - | var: -", "n_params": 1, "complex": false, "module": "xml"}
+{"sig": "encoded, eol=NL", "target": "req: encoded | opt: eol | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "tag, attrib_in, event=event_name, append=append, start=self._start", "target": "req: tag, attrib_in | opt: event, append, start | var: -", "n_params": 5, "complex": false, "module": "xml"}
+{"sig": "cls_name, obj", "target": "req: cls_name, obj | opt: - | var: -", "n_params": 2, "complex": false, "module": "enum"}
+{"sig": "self, name, *, deprecated=False, **kwargs", "target": "req: self, name | opt: deprecated | var: **kwargs", "n_params": 4, "complex": false, "module": "argparse"}
+{"sig": "msg, errors='replace'", "target": "req: msg | opt: errors | var: -", "n_params": 2, "complex": true, "module": "email"}
+{"sig": "self, handle, access, pid=None", "target": "req: self, handle, access | opt: pid | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "cls, val, id=None", "target": "req: cls, val | opt: id | var: -", "n_params": 3, "complex": false, "module": "zipfile"}
+{"sig": "log_write, stdout_level, stderr_level", "target": "req: log_write, stdout_level, stderr_level | opt: - | var: -", "n_params": 3, "complex": false, "module": "_apple_support"}
+{"sig": "doc, added_doc", "target": "req: doc, added_doc | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "name, path, target=None", "target": "req: name, path | opt: target | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "tokens, priority=-1", "target": "req: tokens | opt: priority | var: -", "n_params": 2, "complex": false, "module": "gettext"}
+{"sig": "module, fromlist, import_, *, recursive=False", "target": "req: module, fromlist, import_ | opt: recursive | var: -", "n_params": 4, "complex": false, "module": "importlib"}
+{"sig": "self, operation, src, dst", "target": "req: self, operation, src, dst | opt: - | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "queue, address", "target": "req: queue, address | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, name, alternative=None", "target": "req: self, name | opt: alternative | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, encoding=None, standalone=None", "target": "req: self | opt: encoding, standalone | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, pool", "target": "req: self, pool | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, func, args=(), kwds={}", "target": "req: self, func | opt: args, kwds | var: -", "n_params": 4, "complex": true, "module": "multiprocessing"}
+{"sig": "filename, flag='c', protocol=None, writeback=False", "target": "req: filename | opt: flag, protocol, writeback | var: -", "n_params": 4, "complex": true, "module": "shelve"}
+{"sig": "path, data, mode=438", "target": "req: path, data | opt: mode | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "s, *, cls=None, object_hook=None, parse_float=None, parse_int=None, parse_constant=None, object_pairs_hook=None, **kw", "target": "req: s | opt: cls, object_hook, parse_float, parse_int, parse_constant, object_pairs_hook | var: **kw", "n_params": 8, "complex": false, "module": "json"}
+{"sig": "self, address, backlog=None", "target": "req: self, address | opt: backlog | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "fs, timeout=None, return_when=ALL_COMPLETED", "target": "req: fs | opt: timeout, return_when | var: -", "n_params": 3, "complex": false, "module": "concurrent"}
+{"sig": "inqueue, task_handler, size", "target": "req: inqueue, task_handler, size | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "string, grouping=False, monetary=False", "target": "req: string | opt: grouping, monetary | var: -", "n_params": 3, "complex": false, "module": "locale"}
+{"sig": "self, cmode=None", "target": "req: self | opt: cmode | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "self, typecode_or_type, size_or_initializer, *, lock=True", "target": "req: self, typecode_or_type, size_or_initializer | opt: lock | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, name, rtype", "target": "req: self, name, rtype | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, msg, obj", "target": "req: self, msg, obj | opt: - | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "name, exposed, _cache={}", "target": "req: name, exposed | opt: _cache | var: -", "n_params": 3, "complex": true, "module": "multiprocessing"}
+{"sig": "self, polyitem, coordlist, fill=None, outline=None, width=None, top=False", "target": "req: self, polyitem, coordlist | opt: fill, outline, width, top | var: -", "n_params": 7, "complex": false, "module": "turtle"}
+{"sig": "self, url, realm, data=None", "target": "req: self, url, realm | opt: data | var: -", "n_params": 4, "complex": false, "module": "urllib"}
+{"sig": "self, file, fp, default_netrc", "target": "req: self, file, fp, default_netrc | opt: - | var: -", "n_params": 4, "complex": false, "module": "netrc"}
+{"sig": "self, func, iterable, chunksize=None, callback=None, error_callback=None", "target": "req: self, func, iterable | opt: chunksize, callback, error_callback | var: -", "n_params": 6, "complex": false, "module": "multiprocessing"}
+{"sig": "cls, buf, encoding, errors, *, dircheck=True", "target": "req: cls, buf, encoding, errors | opt: dircheck | var: -", "n_params": 5, "complex": false, "module": "tarfile"}
+{"sig": "context, result", "target": "req: context, result | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "_, thread_wakeup=self.thread_wakeup, mp_util_debug=mp.util.debug", "target": "req: _ | opt: thread_wakeup, mp_util_debug | var: -", "n_params": 3, "complex": false, "module": "concurrent"}
+{"sig": "self, date", "target": "req: self, date | opt: - | var: -", "n_params": 2, "complex": false, "module": "mailbox"}
+{"sig": "self, source, parser=None", "target": "req: self, source | opt: parser | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "s_and_end, scan_once, _w=WHITESPACE.match, _ws=WHITESPACE_STR", "target": "req: s_and_end, scan_once | opt: _w, _ws | var: -", "n_params": 4, "complex": false, "module": "json"}
+{"sig": "self, key, flag: str", "target": "req: self, key, flag | opt: - | var: -", "n_params": 3, "complex": false, "module": "mailbox"}
+{"sig": "self, req, fp, code, msg, headers", "target": "req: self, req, fp, code, msg, headers | opt: - | var: -", "n_params": 6, "complex": false, "module": "urllib"}
+{"sig": "self, stream, parser, bufsize", "target": "req: self, stream, parser, bufsize | opt: - | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "msgid1, msgid2, n", "target": "req: msgid1, msgid2, n | opt: - | var: -", "n_params": 3, "complex": false, "module": "gettext"}
+{"sig": "elem, loader=None, base_url=None, max_depth=DEFAULT_MAX_INCLUSION_DEPTH", "target": "req: elem | opt: loader, base_url, max_depth | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "self, processes=None, initializer=None, initargs=(), maxtasksperchild=None", "target": "req: self | opt: processes, initializer, initargs, maxtasksperchild | var: -", "n_params": 5, "complex": true, "module": "multiprocessing"}
+{"sig": "self, filename='NoName', date_time=(1980, 1, 1, 0, 0, 0)", "target": "req: self | opt: filename, date_time | var: -", "n_params": 3, "complex": true, "module": "zipfile"}
+{"sig": "self, resolver", "target": "req: self, resolver | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "node, level=0", "target": "req: node | opt: level | var: -", "n_params": 2, "complex": false, "module": "ast"}
+{"sig": "self, header_name", "target": "req: self, header_name | opt: - | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "dct, _current_indent_level", "target": "req: dct, _current_indent_level | opt: - | var: -", "n_params": 2, "complex": false, "module": "json"}
+{"sig": "self, names=None", "target": "req: self | opt: names | var: -", "n_params": 2, "complex": false, "module": "gettext"}
+{"sig": "self, parent=None", "target": "req: self | opt: parent | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, namespace, name", "target": "req: self, namespace, name | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, zinfo, force_zip64=False", "target": "req: self, zinfo | opt: force_zip64 | var: -", "n_params": 3, "complex": false, "module": "zipfile"}
+{"sig": "self, canvas=None, shape=_CFG['shape'], undobuffersize=_CFG['undobuffersize'], visible=_CFG['visible']", "target": "req: self | opt: canvas, shape, undobuffersize, visible | var: -", "n_params": 5, "complex": true, "module": "turtle"}
+{"sig": "self, mode='r', *args, pwd=None, **kwargs", "target": "req: self | opt: mode, pwd | var: *args, **kwargs", "n_params": 5, "complex": true, "module": "zipfile"}
+{"sig": "self, value, encoding, fallback_encoding, fallback_errors", "target": "req: self, value, encoding, fallback_encoding, fallback_errors | opt: - | var: -", "n_params": 5, "complex": false, "module": "tarfile"}
+{"sig": "self, tarinfo, targetpath", "target": "req: self, tarinfo, targetpath | opt: - | var: -", "n_params": 3, "complex": false, "module": "tarfile"}
+{"sig": "elem, level", "target": "req: elem, level | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, c, typeid, /, *args, **kwargs", "target": "req: self, c, typeid | opt: - | var: *args, **kwargs", "n_params": 5, "complex": false, "module": "multiprocessing"}
+{"sig": "s, casefold=False, map01=None", "target": "req: s | opt: casefold, map01 | var: -", "n_params": 3, "complex": false, "module": "base64"}
+{"sig": "self, dist", "target": "req: self, dist | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, attname", "target": "req: self, attname | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, namespaceHandling=0, bufsize=2 ** 16 - 20", "target": "req: self | opt: namespaceHandling, bufsize | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, host, realm, clear_cache=0", "target": "req: self, host, realm | opt: clear_cache | var: -", "n_params": 4, "complex": false, "module": "urllib"}
+{"sig": "self, element, attrs", "target": "req: self, element, attrs | opt: - | var: -", "n_params": 3, "complex": false, "module": "plistlib"}
+{"sig": "old, new", "target": "req: old, new | opt: - | var: -", "n_params": 2, "complex": false, "module": "os"}
+{"sig": "param, *args, **kwargs", "target": "req: param | opt: - | var: *args, **kwargs", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "self, charfile", "target": "req: self, charfile | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "new_exc, old_exc", "target": "req: new_exc, old_exc | opt: - | var: -", "n_params": 2, "complex": false, "module": "contextlib"}
+{"sig": "df, readable, writable", "target": "req: df, readable, writable | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, action, conflicting_actions", "target": "req: self, action, conflicting_actions | opt: - | var: -", "n_params": 3, "complex": false, "module": "argparse"}
+{"sig": "self, width=_CFG['width'], height=_CFG['height'], startx=_CFG['leftright'], starty=_CFG['topbottom']", "target": "req: self | opt: width, height, startx, starty | var: -", "n_params": 5, "complex": true, "module": "turtle"}
+{"sig": "action, category=Warning, lineno=0, append=False", "target": "req: action | opt: category, lineno, append | var: -", "n_params": 4, "complex": false, "module": "warnings"}
+{"sig": "anchor=undefined, package=undefined", "target": "req: - | opt: anchor, package | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, _name, _value", "target": "req: self, _name, _value | opt: - | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "element, encoding=None, method=None, *, xml_declaration=None, default_namespace=None, short_empty_elements=True", "target": "req: element | opt: encoding, method, xml_declaration, default_namespace, short_empty_elements | var: -", "n_params": 6, "complex": false, "module": "xml"}
+{"sig": "dt, usegmt=False", "target": "req: dt | opt: usegmt | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, registry_name, value, object", "target": "req: self, registry_name, value, object | opt: - | var: -", "n_params": 4, "complex": false, "module": "argparse"}
+{"sig": "prefix, event=event_name, append=append", "target": "req: prefix | opt: event, append | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, newdata", "target": "req: self, newdata | opt: - | var: -", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "s, aware_datetime", "target": "req: s, aware_datetime | opt: - | var: -", "n_params": 2, "complex": false, "module": "plistlib"}
+{"sig": "self, prefix, uri", "target": "req: self, prefix, uri | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "exc_type, exc, tb", "target": "req: exc_type, exc, tb | opt: - | var: -", "n_params": 3, "complex": false, "module": "contextlib"}
+{"sig": "self, array", "target": "req: self, array | opt: - | var: -", "n_params": 2, "complex": false, "module": "plistlib"}
+{"sig": "new, old", "target": "req: new, old | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "e1, e2", "target": "req: e1, e2 | opt: - | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "b, *, foldspaces=False, wrapcol=0, pad=False, adobe=False", "target": "req: b | opt: foldspaces, wrapcol, pad, adobe | var: -", "n_params": 5, "complex": false, "module": "base64"}
+{"sig": "self, count", "target": "req: self, count | opt: - | var: -", "n_params": 2, "complex": false, "module": "tarfile"}
+{"sig": "domain, localedir=None, languages=None, all=False", "target": "req: domain | opt: localedir, languages, all | var: -", "n_params": 4, "complex": false, "module": "gettext"}
+{"sig": "self, systemId", "target": "req: self, systemId | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "value, *, fmt=None, dict_type=dict, aware_datetime=False", "target": "req: value | opt: fmt, dict_type, aware_datetime | var: -", "n_params": 4, "complex": false, "module": "plistlib"}
+{"sig": "path, name", "target": "req: path, name | opt: - | var: -", "n_params": 2, "complex": false, "module": "pkgutil"}
+{"sig": "file, context, namespaces=True", "target": "req: file, context | opt: namespaces | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, tarinfo, targetpath, filter_function, extraction_root", "target": "req: self, tarinfo, targetpath, filter_function, extraction_root | opt: - | var: -", "n_params": 5, "complex": false, "module": "tarfile"}
+{"sig": "body, maxlinelen=76, eol=NL", "target": "req: body | opt: maxlinelen, eol | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "self, path_pattern", "target": "req: self, path_pattern | opt: - | var: -", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "self, key, handler", "target": "req: self, key, handler | opt: - | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "name, default", "target": "req: name, default | opt: - | var: -", "n_params": 2, "complex": false, "module": "platform"}
+{"sig": "cls, name, paths", "target": "req: cls, name, paths | opt: - | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "fp, vars=None", "target": "req: fp | opt: vars | var: -", "n_params": 2, "complex": false, "module": "sysconfig"}
+{"sig": "self, new_target", "target": "req: self, new_target | opt: - | var: -", "n_params": 2, "complex": false, "module": "contextlib"}
+{"sig": "self, password_mgr=None", "target": "req: self | opt: password_mgr | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "self, url, data=None, headers={}, origin_req_host=None, unverifiable=False, method=None", "target": "req: self, url | opt: data, headers, origin_req_host, unverifiable, method | var: -", "n_params": 7, "complex": true, "module": "urllib"}
+{"sig": "self, writer, indent='', addindent='', newl=''", "target": "req: self, writer | opt: indent, addindent, newl | var: -", "n_params": 5, "complex": true, "module": "xml"}
+{"sig": "self, conn, ident, obj", "target": "req: self, conn, ident, obj | opt: - | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, t", "target": "req: self, t | opt: - | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "charset, header_enc=None, body_enc=None, output_charset=None", "target": "req: charset | opt: header_enc, body_enc, output_charset | var: -", "n_params": 4, "complex": false, "module": "email"}
+{"sig": "self, exit", "target": "req: self, exit | opt: - | var: -", "n_params": 2, "complex": false, "module": "contextlib"}
+{"sig": "connection, authkey: bytes", "target": "req: connection, authkey | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, *, extra=None", "target": "req: self | opt: extra | var: -", "n_params": 2, "complex": false, "module": "ast"}
+{"sig": "self, name, segment_names=None", "target": "req: self, name | opt: segment_names | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, action", "target": "req: self, action | opt: - | var: -", "n_params": 2, "complex": false, "module": "argparse"}
+{"sig": "cls, name, mode='r', fileobj=None, compresslevel=9, **kwargs", "target": "req: cls, name | opt: mode, fileobj, compresslevel | var: **kwargs", "n_params": 6, "complex": true, "module": "tarfile"}
+{"sig": "self, f, pos=None", "target": "req: self, f | opt: pos | var: -", "n_params": 3, "complex": false, "module": "mailbox"}
+{"sig": "self, buf, offset=0, size=None", "target": "req: self, buf | opt: offset, size | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, **params", "target": "req: self | opt: - | var: **params", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, entityName, is_parameter_entity, value, base, systemId, publicId, notationName", "target": "req: self, entityName, is_parameter_entity, value, base, systemId, publicId, notationName | opt: - | var: -", "n_params": 8, "complex": false, "module": "xml"}
+{"sig": "self, part, preferencelist", "target": "req: self, part, preferencelist | opt: - | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "self, nonce", "target": "req: self, nonce | opt: - | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "self, headerlen, maxlen, continuation_ws, splitchars", "target": "req: self, headerlen, maxlen, continuation_ws, splitchars | opt: - | var: -", "n_params": 5, "complex": false, "module": "email"}
+{"sig": "self, func, args", "target": "req: self, func, args | opt: - | var: -", "n_params": 3, "complex": false, "module": "argparse"}
+{"sig": "self, c, typeid, /, *args, **kwds", "target": "req: self, c, typeid | opt: - | var: *args, **kwds", "n_params": 5, "complex": false, "module": "multiprocessing"}
+{"sig": "self, file, pos, close, lock, writing", "target": "req: self, file, pos, close, lock, writing | opt: - | var: -", "n_params": 6, "complex": false, "module": "zipfile"}
+{"sig": "self, obj, block=True, timeout=None", "target": "req: self, obj | opt: block, timeout | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "host, defport=-1", "target": "req: host | opt: defport | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "self, message=None", "target": "req: self | opt: message | var: -", "n_params": 2, "complex": false, "module": "mailbox"}
+{"sig": "decoded_seq, maxlinelen=None, header_name=None, continuation_ws=' '", "target": "req: decoded_seq | opt: maxlinelen, header_name, continuation_ws | var: -", "n_params": 4, "complex": true, "module": "email"}
+{"sig": "_, q=self._work_queue", "target": "req: _ | opt: q | var: -", "n_params": 2, "complex": false, "module": "concurrent"}
+{"sig": "self, option_strings, dest=SUPPRESS, default=SUPPRESS, help=None, deprecated=False", "target": "req: self, option_strings | opt: dest, default, help, deprecated | var: -", "n_params": 6, "complex": false, "module": "argparse"}
+{"sig": "sock, size", "target": "req: sock, size | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, spec: str", "target": "req: self, spec | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "cls, path_str", "target": "req: cls, path_str | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, mode=None", "target": "req: self | opt: mode | var: -", "n_params": 2, "complex": false, "module": "tarfile"}
+{"sig": "self, arena", "target": "req: self, arena | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, name: str, failobj: _T", "target": "req: self, name, failobj | opt: - | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "self, _class=None, *, policy=compat32", "target": "req: self | opt: _class, policy | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "self, name: str, value: str, group: str", "target": "req: self, name, value, group | opt: - | var: -", "n_params": 4, "complex": false, "module": "importlib"}
+{"sig": "mod_name, alter_argv=True", "target": "req: mod_name | opt: alter_argv | var: -", "n_params": 2, "complex": false, "module": "runpy"}
+{"sig": "zf, path, zippath", "target": "req: zf, path, zippath | opt: - | var: -", "n_params": 3, "complex": false, "module": "zipfile"}
+{"sig": "etype=Enum, *, boundary=None, use_args=None", "target": "req: - | opt: etype, boundary, use_args | var: -", "n_params": 3, "complex": false, "module": "enum"}
+{"sig": "self, uri, is_authenticated=False", "target": "req: self, uri | opt: is_authenticated | var: -", "n_params": 3, "complex": false, "module": "urllib"}
+{"sig": "n, digits=8, format=DEFAULT_FORMAT", "target": "req: n | opt: digits, format | var: -", "n_params": 3, "complex": false, "module": "tarfile"}
+{"sig": "writer, text, attr", "target": "req: writer, text, attr | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, position", "target": "req: self, position | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "code, string, name", "target": "req: code, string, name | opt: - | var: -", "n_params": 3, "complex": false, "module": "linecache"}
+{"sig": "file, args", "target": "req: file, args | opt: - | var: -", "n_params": 2, "complex": false, "module": "os"}
+{"sig": "string, func=float", "target": "req: string | opt: func | var: -", "n_params": 2, "complex": false, "module": "locale"}
+{"sig": "cls, year, week, day", "target": "req: cls, year, week, day | opt: - | var: -", "n_params": 4, "complex": false, "module": "_pydatetime"}
+{"sig": "self, events_queue, events_to_report", "target": "req: self, events_queue, events_to_report | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, _imagedata, _subtype=None, _encoder=encoders.encode_base64, *, policy=None, **_params", "target": "req: self, _imagedata | opt: _subtype, _encoder, policy | var: **_params", "n_params": 6, "complex": false, "module": "email"}
+{"sig": "self, futures", "target": "req: self, futures | opt: - | var: -", "n_params": 2, "complex": false, "module": "concurrent"}
+{"sig": "self, message, target, mangle_from_=False", "target": "req: self, message, target | opt: mangle_from_ | var: -", "n_params": 4, "complex": false, "module": "mailbox"}
+{"sig": "self, x, level, left, right, maxiter, trail=''", "target": "req: self, x, level, left, right, maxiter | opt: trail | var: -", "n_params": 7, "complex": true, "module": "reprlib"}
+{"sig": "self, expr", "target": "req: self, expr | opt: - | var: -", "n_params": 2, "complex": false, "module": "pdb"}
+{"sig": "self, attname_or_tuple", "target": "req: self, attname_or_tuple | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, pool, callback, error_callback", "target": "req: self, pool, callback, error_callback | opt: - | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, name, pid, sentinel", "target": "req: self, name, pid, sentinel | opt: - | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "percent, value, grouping=False, monetary=False, *additional", "target": "req: percent, value | opt: grouping, monetary | var: *additional", "n_params": 5, "complex": false, "module": "locale"}
+{"sig": "type, ob, key", "target": "req: type, ob, key | opt: - | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "self, tarinfo, fileobj=None", "target": "req: self, tarinfo | opt: fileobj | var: -", "n_params": 3, "complex": false, "module": "tarfile"}
+{"sig": "self, modules_names", "target": "req: self, modules_names | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, oldChild", "target": "req: self, oldChild | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "cls, raw", "target": "req: cls, raw | opt: - | var: -", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "self, tag, attrib={}, **extra", "target": "req: self, tag | opt: attrib | var: **extra", "n_params": 4, "complex": true, "module": "xml"}
+{"sig": "mode, file, *args", "target": "req: mode, file | opt: - | var: *args", "n_params": 3, "complex": false, "module": "os"}
+{"sig": "self, name, tagName, attrs", "target": "req: self, name, tagName, attrs | opt: - | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "self, data, max_length=-1", "target": "req: self, data | opt: max_length | var: -", "n_params": 3, "complex": false, "module": "zipfile"}
+{"sig": "dh, readable, writable", "target": "req: dh, readable, writable | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, picname=None", "target": "req: self | opt: picname | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "self, boundary=None", "target": "req: self | opt: boundary | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, flag=os.WNOHANG", "target": "req: self | opt: flag | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "builder, name", "target": "req: builder, name | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "category, locale=None", "target": "req: category | opt: locale | var: -", "n_params": 2, "complex": false, "module": "locale"}
+{"sig": "*item, append", "target": "req: append | opt: - | var: *item", "n_params": 2, "complex": false, "module": "warnings"}
+{"sig": "self, lineitem, coordlist=None, fill=None, width=None, top=False", "target": "req: self, lineitem | opt: coordlist, fill, width, top | var: -", "n_params": 6, "complex": false, "module": "turtle"}
+{"sig": "self, string, *, quote_types=_ALL_QUOTES, escape_special_whitespace=False", "target": "req: self, string | opt: quote_types, escape_special_whitespace | var: -", "n_params": 4, "complex": false, "module": "ast"}
+{"sig": "self, callable", "target": "req: self, callable | opt: - | var: -", "n_params": 2, "complex": false, "module": "abc"}
+{"sig": "self, stretch_wid=None, stretch_len=None, outline=None", "target": "req: self | opt: stretch_wid, stretch_len, outline | var: -", "n_params": 4, "complex": false, "module": "turtle"}
+{"sig": "self, fws, string", "target": "req: self, fws, string | opt: - | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "message, filename=None, location=None", "target": "req: message | opt: filename, location | var: -", "n_params": 3, "complex": false, "module": "tokenize"}
+{"sig": "self, max_workers=None, mp_context=None, initializer=None, initargs=(), *, max_tasks_per_child=None", "target": "req: self | opt: max_workers, mp_context, initializer, initargs, max_tasks_per_child | var: -", "n_params": 6, "complex": true, "module": "concurrent"}
+{"sig": "cls, date_string", "target": "req: cls, date_string | opt: - | var: -", "n_params": 2, "complex": false, "module": "_pydatetime"}
+{"sig": "self, authuri", "target": "req: self, authuri | opt: - | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "self, result_job, func, iterable", "target": "req: self, result_job, func, iterable | opt: - | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, initial_size=0", "target": "req: self | opt: initial_size | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, arg, move=False, align='left', font=('Arial', 8, 'normal')", "target": "req: self, arg | opt: move, align, font | var: -", "n_params": 5, "complex": true, "module": "turtle"}
+{"sig": "self, publicId", "target": "req: self, publicId | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, action, arg_strings_pattern", "target": "req: self, action, arg_strings_pattern | opt: - | var: -", "n_params": 3, "complex": false, "module": "argparse"}
+{"sig": "self, context, base, systemId, publicId", "target": "req: self, context, base, systemId, publicId | opt: - | var: -", "n_params": 5, "complex": false, "module": "xml"}
+{"sig": "self, pred", "target": "req: self, pred | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "cls, date, time, tzinfo=True", "target": "req: cls, date, time | opt: tzinfo | var: -", "n_params": 4, "complex": false, "module": "_pydatetime"}
+{"sig": "lst, _current_indent_level", "target": "req: lst, _current_indent_level | opt: - | var: -", "n_params": 2, "complex": false, "module": "json"}
+{"sig": "self, member, path=None, pwd=None", "target": "req: self, member | opt: path, pwd | var: -", "n_params": 4, "complex": false, "module": "zipfile"}
+{"sig": "self, inter, f, seq", "target": "req: self, inter, f, seq | opt: - | var: -", "n_params": 4, "complex": false, "module": "ast"}
+{"sig": "self, token", "target": "req: self, token | opt: - | var: -", "n_params": 2, "complex": false, "module": "netrc"}
+{"sig": "self, host, type", "target": "req: self, host, type | opt: - | var: -", "n_params": 3, "complex": false, "module": "urllib"}
+{"sig": "self, width, height, cwidth, cheight", "target": "req: self, width, height, cwidth, cheight | opt: - | var: -", "n_params": 5, "complex": false, "module": "turtle"}
+{"sig": "self, fws, string, charset", "target": "req: self, fws, string, charset | opt: - | var: -", "n_params": 4, "complex": false, "module": "email"}
+{"sig": "header_bytes, charset='iso-8859-1'", "target": "req: header_bytes | opt: charset | var: -", "n_params": 2, "complex": true, "module": "email"}
+{"sig": "self, position, whence=io.SEEK_SET", "target": "req: self, position | opt: whence | var: -", "n_params": 3, "complex": false, "module": "tarfile"}
+{"sig": "self, connection_factory, url, data", "target": "req: self, connection_factory, url, data | opt: - | var: -", "n_params": 4, "complex": false, "module": "urllib"}
+{"sig": "self, comment", "target": "req: self, comment | opt: - | var: -", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "code, init_globals=None, mod_name=None, mod_spec=None, pkg_name=None, script_name=None", "target": "req: code | opt: init_globals, mod_name, mod_spec, pkg_name, script_name | var: -", "n_params": 6, "complex": false, "module": "runpy"}
+{"sig": "name, loader, *, origin=None, is_package=None", "target": "req: name, loader | opt: origin, is_package | var: -", "n_params": 4, "complex": false, "module": "importlib"}
+{"sig": "self, data, path, *, _optimize=-1", "target": "req: self, data, path | opt: _optimize | var: -", "n_params": 4, "complex": false, "module": "importlib"}
+{"sig": "self, cause", "target": "req: self, cause | opt: - | var: -", "n_params": 2, "complex": false, "module": "concurrent"}
+{"sig": "string, context, namespaces=True", "target": "req: string, context | opt: namespaces | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, data, encodekey, decodekey, encodevalue, decodevalue", "target": "req: self, data, encodekey, decodekey, encodevalue, decodevalue | opt: - | var: -", "n_params": 6, "complex": false, "module": "os"}
+{"sig": "t, pdb_instance", "target": "req: t, pdb_instance | opt: - | var: -", "n_params": 2, "complex": false, "module": "pdb"}
+{"sig": "self, option_strings, prog, parser_class, dest=SUPPRESS, required=False, help=None, metavar=None", "target": "req: self, option_strings, prog, parser_class | opt: dest, required, help, metavar | var: -", "n_params": 8, "complex": false, "module": "argparse"}
+{"sig": "conn, pid", "target": "req: conn, pid | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, i=None, decode=False", "target": "req: self | opt: i, decode | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "self, fun, t=0", "target": "req: self, fun | opt: t | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "self, tagName, namespaceURI=EMPTY_NAMESPACE, prefix=None, localName=None", "target": "req: self, tagName | opt: namespaceURI, prefix, localName | var: -", "n_params": 5, "complex": false, "module": "xml"}
+{"sig": "self, tarinfo", "target": "req: self, tarinfo | opt: - | var: -", "n_params": 2, "complex": false, "module": "tarfile"}
+{"sig": "path_names, encoding", "target": "req: path_names, encoding | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "path, mode", "target": "req: path, mode | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "msg, fp=None, level=0, include_default=False", "target": "req: msg | opt: fp, level, include_default | var: -", "n_params": 4, "complex": false, "module": "email"}
+{"sig": "executor_reference, work_queue, initializer, initargs", "target": "req: executor_reference, work_queue, initializer, initargs | opt: - | var: -", "n_params": 4, "complex": false, "module": "concurrent"}
+{"sig": "self, fp, headersonly=True", "target": "req: self, fp | opt: headersonly | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "self, idAttr", "target": "req: self, idAttr | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, key, message", "target": "req: self, key, message | opt: - | var: -", "n_params": 3, "complex": false, "module": "mailbox"}
+{"sig": "cls, inst", "target": "req: cls, inst | opt: - | var: -", "n_params": 2, "complex": false, "module": "ast"}
+{"sig": "self, atomends=None", "target": "req: self | opt: atomends | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, rmode=None", "target": "req: self | opt: rmode | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "self, method=None", "target": "req: self | opt: method | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "functions, cls, obj, init, docrevise", "target": "req: functions, cls, obj, init, docrevise | opt: - | var: -", "n_params": 5, "complex": false, "module": "turtle"}
+{"sig": "self, string, *, quote_types=_ALL_QUOTES", "target": "req: self, string | opt: quote_types | var: -", "n_params": 3, "complex": false, "module": "ast"}
+{"sig": "self, attrname", "target": "req: self, attrname | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "obj, /, *args, **kwargs", "target": "req: obj | opt: - | var: *args, **kwargs", "n_params": 3, "complex": false, "module": "operator"}
+{"sig": "self, debuglevel=None", "target": "req: self | opt: debuglevel | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "name, offset", "target": "req: name, offset | opt: - | var: -", "n_params": 2, "complex": false, "module": "_pydatetime"}
+{"sig": "self, entity_name, is_parameter_entity, value, base, system_id, public_id, notation_name", "target": "req: self, entity_name, is_parameter_entity, value, base, system_id, public_id, notation_name | opt: - | var: -", "n_params": 8, "complex": false, "module": "plistlib"}
+{"sig": "self, msg, exception=None", "target": "req: self, msg | opt: exception | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, actions, arg_strings_pattern", "target": "req: self, actions, arg_strings_pattern | opt: - | var: -", "n_params": 3, "complex": false, "module": "argparse"}
+{"sig": "self, tagName", "target": "req: self, tagName | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, _audiodata, _subtype=None, _encoder=encoders.encode_base64, *, policy=None, **_params", "target": "req: self, _audiodata | opt: _subtype, _encoder, policy | var: **_params", "n_params": 6, "complex": false, "module": "email"}
+{"sig": "cls, n", "target": "req: cls, n | opt: - | var: -", "n_params": 2, "complex": false, "module": "_pydatetime"}
+{"sig": "cls, tz=None", "target": "req: cls | opt: tz | var: -", "n_params": 2, "complex": false, "module": "_pydatetime"}
+{"sig": "self, pwd", "target": "req: self, pwd | opt: - | var: -", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "self, func, iterable, chunksize=None", "target": "req: self, func, iterable | opt: chunksize | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, builder", "target": "req: self, builder | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "mode, file, args, env, func", "target": "req: mode, file, args, env, func | opt: - | var: -", "n_params": 5, "complex": false, "module": "os"}
+{"sig": "self, endElement=False", "target": "req: self | opt: endElement | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, frame, name, value", "target": "req: self, frame, name, value | opt: - | var: -", "n_params": 4, "complex": false, "module": "pdb"}
+{"sig": "obj, lock=None, ctx=None", "target": "req: obj | opt: lock, ctx | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "metacls, cls, bases, classdict, *, boundary=None, _simple=False, **kwds", "target": "req: metacls, cls, bases, classdict | opt: boundary, _simple | var: **kwds", "n_params": 7, "complex": false, "module": "enum"}
+{"sig": "ctx, Process, processes, pool, inqueue, outqueue, initializer, initargs, maxtasksperchild, wrap_exception", "target": "req: ctx, Process, processes, pool, inqueue, outqueue, initializer, initargs, maxtasksperchild, wrap_exception | opt: - | var: -", "n_params": 10, "complex": false, "module": "multiprocessing"}
+{"sig": "self, cookiejar=None", "target": "req: self | opt: cookiejar | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "self, f, start=None, stop=None", "target": "req: self, f | opt: start, stop | var: -", "n_params": 4, "complex": false, "module": "mailbox"}
+{"sig": "self, uri, default_port=True", "target": "req: self, uri | opt: default_port | var: -", "n_params": 3, "complex": false, "module": "urllib"}
+{"sig": "fd, mode='r', buffering=-1, encoding=None, *args, **kwargs", "target": "req: fd | opt: mode, buffering, encoding | var: *args, **kwargs", "n_params": 6, "complex": true, "module": "os"}
+{"sig": "cls, taskqueue, inqueue, outqueue, pool, change_notifier, worker_handler, task_handler, result_handler, cache", "target": "req: cls, taskqueue, inqueue, outqueue, pool, change_notifier, worker_handler, task_handler, result_handler, cache | opt: - | var: -", "n_params": 10, "complex": false, "module": "multiprocessing"}
+{"sig": "self, member, path='', set_attrs=True, *, numeric_owner=False, filter=None", "target": "req: self, member | opt: path, set_attrs, numeric_owner, filter | var: -", "n_params": 6, "complex": true, "module": "tarfile"}
+{"sig": "node, deep, newOwnerDocument", "target": "req: node, deep, newOwnerDocument | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "kind, result", "target": "req: kind, result | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "inqueue, outqueue, initializer=None, initargs=(), maxtasks=None, wrap_exception=False", "target": "req: inqueue, outqueue | opt: initializer, initargs, maxtasks, wrap_exception | var: -", "n_params": 6, "complex": true, "module": "multiprocessing"}
+{"sig": "out, encoding", "target": "req: out, encoding | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, non_printables", "target": "req: self, non_printables | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, initializer=None, initargs=()", "target": "req: self | opt: initializer, initargs | var: -", "n_params": 3, "complex": true, "module": "multiprocessing"}
+{"sig": "self, message, category, filename, lineno, file=None, line=None, source=None", "target": "req: self, message, category, filename, lineno | opt: file, line, source | var: -", "n_params": 8, "complex": false, "module": "warnings"}
+{"sig": "filename, lineno, module_globals=None", "target": "req: filename, lineno | opt: module_globals | var: -", "n_params": 3, "complex": false, "module": "linecache"}
+{"sig": "text, filter_=None", "target": "req: text | opt: filter_ | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "cls, update_str=False", "target": "req: cls | opt: update_str | var: -", "n_params": 2, "complex": false, "module": "enum"}
+{"sig": "self, offset, count, arg", "target": "req: self, offset, count, arg | opt: - | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "s, end, strict=True, _b=BACKSLASH, _m=STRINGCHUNK.match", "target": "req: s, end | opt: strict, _b, _m | var: -", "n_params": 5, "complex": false, "module": "json"}
+{"sig": "self, curNode", "target": "req: self, curNode | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, filename: str | os.PathLike[str]", "target": "req: self, filename | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, user, passwd, host, port, dirs, timeout", "target": "req: self, user, passwd, host, port, dirs, timeout | opt: - | var: -", "n_params": 7, "complex": false, "module": "urllib"}
+{"sig": "self, field", "target": "req: self, field | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, cm, cm_exit", "target": "req: self, cm, cm_exit | opt: - | var: -", "n_params": 3, "complex": false, "module": "contextlib"}
+{"sig": "name, globals=None, locals=None, fromlist=(), level=0", "target": "req: name | opt: globals, locals, fromlist, level | var: -", "n_params": 5, "complex": true, "module": "importlib"}
+{"sig": "timeval=None, localtime=False, usegmt=False", "target": "req: - | opt: timeval, localtime, usegmt | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "string, safe='', encoding=None, errors=None", "target": "req: string | opt: safe, encoding, errors | var: -", "n_params": 4, "complex": true, "module": "urllib"}
+{"sig": "self, failobj=None", "target": "req: self | opt: failobj | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, number", "target": "req: self, number | opt: - | var: -", "n_params": 2, "complex": false, "module": "pdb"}
+{"sig": "self, useragent", "target": "req: self, useragent | opt: - | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "self, encoding", "target": "req: self, encoding | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, header_name, default=None", "target": "req: self, header_name | opt: default | var: -", "n_params": 3, "complex": false, "module": "urllib"}
+{"sig": "self, lines, start, breaks=(), frame=None", "target": "req: self, lines, start | opt: breaks, frame | var: -", "n_params": 5, "complex": true, "module": "pdb"}
+{"sig": "self, display_name='', username='', domain='', addr_spec=None", "target": "req: self | opt: display_name, username, domain, addr_spec | var: -", "n_params": 5, "complex": true, "module": "email"}
+{"sig": "self, parent_sentinel=None", "target": "req: self | opt: parent_sentinel | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, key: str", "target": "req: self, key | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "param, value=None, quote=True", "target": "req: param | opt: value, quote | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "name, hash=None, size_str=None", "target": "req: name | opt: hash, size_str | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "alphabet, s", "target": "req: alphabet, s | opt: - | var: -", "n_params": 2, "complex": false, "module": "base64"}
+{"sig": "parent, name, rc", "target": "req: parent, name, rc | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, member, filter_function, path", "target": "req: self, member, filter_function, path | opt: - | var: -", "n_params": 4, "complex": false, "module": "tarfile"}
+{"sig": "cls, date_string, format", "target": "req: cls, date_string, format | opt: - | var: -", "n_params": 3, "complex": false, "module": "_pydatetime"}
+{"sig": "handles, timeout", "target": "req: handles, timeout | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, msg, doc, pos", "target": "req: self, msg, doc, pos | opt: - | var: -", "n_params": 4, "complex": false, "module": "json"}
+{"sig": "self, req, response", "target": "req: self, req, response | opt: - | var: -", "n_params": 3, "complex": false, "module": "urllib"}
+{"sig": "pair, charset='utf-8'", "target": "req: pair | opt: charset | var: -", "n_params": 2, "complex": true, "module": "email"}
+{"sig": "self, title, prompt, default=None, minval=None, maxval=None", "target": "req: self, title, prompt | opt: default, minval, maxval | var: -", "n_params": 6, "complex": false, "module": "turtle"}
+{"sig": "func, token, serializer, kwds", "target": "req: func, token, serializer, kwds | opt: - | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, doc, usage_only=False", "target": "req: self, doc | opt: usage_only | var: -", "n_params": 3, "complex": false, "module": "pdb"}
+{"sig": "self, year=None, month=None, day=None", "target": "req: self | opt: year, month, day | var: -", "n_params": 4, "complex": false, "module": "_pydatetime"}
+{"sig": "self, *, disable_check", "target": "req: self, disable_check | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, a=None, b=None", "target": "req: self | opt: a, b | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "klass, name, doc", "target": "req: klass, name, doc | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "cls, type, reduce", "target": "req: cls, type, reduce | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, *other", "target": "req: self | opt: - | var: *other", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "s, maxlinelength=76", "target": "req: s | opt: maxlinelength | var: -", "n_params": 2, "complex": false, "module": "plistlib"}
+{"sig": "self, reason, filename=None", "target": "req: self, reason | opt: filename | var: -", "n_params": 3, "complex": false, "module": "urllib"}
+{"sig": "self, option_strings, dest, const=None, default=None, required=False, help=None, metavar=None, deprecated=False", "target": "req: self, option_strings, dest | opt: const, default, required, help, metavar, deprecated | var: -", "n_params": 9, "complex": false, "module": "argparse"}
+{"sig": "fd, n", "target": "req: fd, n | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "L, s, maxlen, extra=''", "target": "req: L, s, maxlen | opt: extra | var: -", "n_params": 4, "complex": true, "module": "email"}
+{"sig": "self, item, /, *items", "target": "req: self, item | opt: - | var: *items", "n_params": 3, "complex": false, "module": "operator"}
+{"sig": "parse_tree, *, policy", "target": "req: parse_tree, policy | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "e, obj", "target": "req: e, obj | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "s, vars", "target": "req: s, vars | opt: - | var: -", "n_params": 2, "complex": false, "module": "sysconfig"}
+{"sig": "f, val, grouping=False, monetary=False", "target": "req: f, val | opt: grouping, monetary | var: -", "n_params": 4, "complex": false, "module": "locale"}
+{"sig": "self, fileobj, mode, zipinfo, pwd=None, close_fileobj=False", "target": "req: self, fileobj, mode, zipinfo | opt: pwd, close_fileobj | var: -", "n_params": 6, "complex": false, "module": "zipfile"}
+{"sig": "self, spec", "target": "req: self, spec | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "cls, fullname, alias=None, ispkg=False", "target": "req: cls, fullname | opt: alias, ispkg | var: -", "n_params": 4, "complex": false, "module": "importlib"}
+{"sig": "self, failobj=None, header='content-type', unquote=True", "target": "req: self | opt: failobj, header, unquote | var: -", "n_params": 4, "complex": true, "module": "email"}
+{"sig": "executable=sys.executable, bits='', linkage=''", "target": "req: - | opt: executable, bits, linkage | var: -", "n_params": 3, "complex": true, "module": "platform"}
+{"sig": "self, realm, uri, user, passwd, is_authenticated=False", "target": "req: self, realm, uri, user, passwd | opt: is_authenticated | var: -", "n_params": 6, "complex": false, "module": "urllib"}
+{"sig": "addr, *, strict=True", "target": "req: addr | opt: strict | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, i, success_result", "target": "req: self, i, success_result | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "next, token", "target": "req: next, token | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, sourcelines", "target": "req: self, sourcelines | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, path: FastPath", "target": "req: self, path | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "parent, tag, attrib={}, **extra", "target": "req: parent, tag | opt: attrib | var: **extra", "n_params": 4, "complex": true, "module": "xml"}
+{"sig": "self, realm, uri, user, passwd", "target": "req: self, realm, uri, user, passwd | opt: - | var: -", "n_params": 5, "complex": false, "module": "urllib"}
+{"sig": "self, processes=None, initializer=None, initargs=(), maxtasksperchild=None, context=None", "target": "req: self | opt: processes, initializer, initargs, maxtasksperchild, context | var: -", "n_params": 6, "complex": true, "module": "multiprocessing"}
+{"sig": "self, stream, proc", "target": "req: self, stream, proc | opt: - | var: -", "n_params": 3, "complex": false, "module": "os"}
+{"sig": "to_encode, lines, maxlen, last_ew, ew_combine_allowed, charset, last_word_is_ew", "target": "req: to_encode, lines, maxlen, last_ew, ew_combine_allowed, charset, last_word_is_ew | opt: - | var: -", "n_params": 7, "complex": false, "module": "email"}
+{"sig": "target, default=''", "target": "req: target | opt: default | var: -", "n_params": 2, "complex": true, "module": "platform"}
+{"sig": "self, name, is_pe", "target": "req: self, name, is_pe | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, members, **more_members", "target": "req: self, members | opt: - | var: **more_members", "n_params": 3, "complex": false, "module": "enum"}
+{"sig": "self, future, fn, args, kwargs", "target": "req: self, future, fn, args, kwargs | opt: - | var: -", "n_params": 5, "complex": false, "module": "concurrent"}
+{"sig": "self, beginchar, endchars, allowcomments=True", "target": "req: self, beginchar, endchars | opt: allowcomments | var: -", "n_params": 4, "complex": false, "module": "email"}
+{"sig": "filename, module_globals=None", "target": "req: filename | opt: module_globals | var: -", "n_params": 2, "complex": false, "module": "linecache"}
+{"sig": "stack, isbytes, topdown, onerror, follow_symlinks", "target": "req: stack, isbytes, topdown, onerror, follow_symlinks | opt: - | var: -", "n_params": 5, "complex": false, "module": "os"}
+{"sig": "formatted, grouping=False, monetary=False", "target": "req: formatted | opt: grouping, monetary | var: -", "n_params": 3, "complex": false, "module": "locale"}
+{"sig": "cls, obj, protocol=None", "target": "req: cls, obj | opt: protocol | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, usage, actions, groups, prefix", "target": "req: self, usage, actions, groups, prefix | opt: - | var: -", "n_params": 5, "complex": false, "module": "argparse"}
+{"sig": "self, flag=None, delay=None", "target": "req: self | opt: flag, delay | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "string, charset, cte, policy", "target": "req: string, charset, cte, policy | opt: - | var: -", "n_params": 4, "complex": false, "module": "email"}
+{"sig": "self, debuglevel=None, context=None, check_hostname=None", "target": "req: self | opt: debuglevel, context, check_hostname | var: -", "n_params": 4, "complex": false, "module": "urllib"}
+{"sig": "self, loader", "target": "req: self, loader | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, encoding: Optional[str]=None", "target": "req: self | opt: encoding | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, fill, node", "target": "req: self, fill, node | opt: - | var: -", "n_params": 3, "complex": false, "module": "ast"}
+{"sig": "self, file, indent_level=0, indent=b'\\t', writeHeader=1, sort_keys=True, skipkeys=False, aware_datetime=False", "target": "req: self, file | opt: indent_level, indent, writeHeader, sort_keys, skipkeys, aware_datetime | var: -", "n_params": 8, "complex": true, "module": "plistlib"}
+{"sig": "string, handler, errorHandler=ErrorHandler()", "target": "req: string, handler | opt: errorHandler | var: -", "n_params": 3, "complex": true, "module": "xml"}
+{"sig": "self, safe", "target": "req: self, safe | opt: - | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "self, tag, attrib", "target": "req: self, tag, attrib | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "target_dict, other_dict", "target": "req: target_dict, other_dict | opt: - | var: -", "n_params": 2, "complex": false, "module": "sysconfig"}
+{"sig": "compress_type, compresslevel=None", "target": "req: compress_type | opt: compresslevel | var: -", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "self, fds", "target": "req: self, fds | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, actions, groups, opt_count=None", "target": "req: self, actions, groups | opt: opt_count | var: -", "n_params": 4, "complex": false, "module": "argparse"}
+{"sig": "self, offset, arg", "target": "req: self, offset, arg | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, broken=False", "target": "req: self | opt: broken | var: -", "n_params": 2, "complex": false, "module": "concurrent"}
+{"sig": "exc, tb", "target": "req: exc, tb | opt: - | var: -", "n_params": 2, "complex": false, "module": "concurrent"}
+{"sig": "self, identifier", "target": "req: self, identifier | opt: - | var: -", "n_params": 2, "complex": false, "module": "pdb"}
+{"sig": "self, _join_text=''.join", "target": "req: self | opt: _join_text | var: -", "n_params": 2, "complex": true, "module": "xml"}
+{"sig": "write, elem", "target": "req: write, elem | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, payload", "target": "req: self, payload | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "file, mode='r', *args, **kwargs", "target": "req: file | opt: mode | var: *args, **kwargs", "n_params": 4, "complex": true, "module": "importlib"}
+{"sig": "x, memo=None, _nil=[]", "target": "req: x | opt: memo, _nil | var: -", "n_params": 3, "complex": true, "module": "copy"}
+{"sig": "source, handler, errorHandler=ErrorHandler()", "target": "req: source, handler | opt: errorHandler | var: -", "n_params": 3, "complex": true, "module": "xml"}
+{"sig": "self, allow_none=False", "target": "req: self | opt: allow_none | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, system_id", "target": "req: self, system_id | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "value, terminal_type='vtext'", "target": "req: value | opt: terminal_type | var: -", "n_params": 2, "complex": true, "module": "email"}
+{"sig": "typecode_or_type, size_or_initializer, *, lock=True, ctx=None", "target": "req: typecode_or_type, size_or_initializer | opt: lock, ctx | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, subtype, disallowed_subtypes, boundary", "target": "req: self, subtype, disallowed_subtypes, boundary | opt: - | var: -", "n_params": 4, "complex": false, "module": "email"}
+{"sig": "cls, name, module, filter, source=None, *, boundary=None, as_global=False", "target": "req: cls, name, module, filter | opt: source, boundary, as_global | var: -", "n_params": 7, "complex": false, "module": "enum"}
+{"sig": "cls, name, mode='r', fileobj=None, **kwargs", "target": "req: cls, name | opt: mode, fileobj | var: **kwargs", "n_params": 5, "complex": true, "module": "tarfile"}
+{"sig": "self, s=None, charset=None, maxlinelen=None, header_name=None, continuation_ws=' ', errors='strict'", "target": "req: self | opt: s, charset, maxlinelen, header_name, continuation_ws, errors | var: -", "n_params": 7, "complex": true, "module": "email"}
+{"sig": "module, loader=None, origin=None", "target": "req: module | opt: loader, origin | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "cls, days=0, seconds=0, microseconds=0, milliseconds=0, minutes=0, hours=0, weeks=0", "target": "req: cls | opt: days, seconds, microseconds, milliseconds, minutes, hours, weeks | var: -", "n_params": 8, "complex": false, "module": "_pydatetime"}
+{"sig": "self, cv, mode=_CFG['mode'], colormode=_CFG['colormode'], delay=_CFG['delay']", "target": "req: self, cv | opt: mode, colormode, delay | var: -", "n_params": 5, "complex": true, "module": "turtle"}
+{"sig": "source_pid, handle", "target": "req: source_pid, handle | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "funcname, filename", "target": "req: funcname, filename | opt: - | var: -", "n_params": 2, "complex": false, "module": "pdb"}
+{"sig": "b, *, foldspaces=False, adobe=False, ignorechars=b' \\t\\n\\r\\x0b'", "target": "req: b | opt: foldspaces, adobe, ignorechars | var: -", "n_params": 4, "complex": true, "module": "base64"}
+{"sig": "self, prog, indent_increment=2, max_help_position=24, width=None", "target": "req: self, prog | opt: indent_increment, max_help_position, width | var: -", "n_params": 5, "complex": false, "module": "argparse"}
+{"sig": "self, size, fd=-1", "target": "req: self, size | opt: fd | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, info, encoding, errors", "target": "req: self, info, encoding, errors | opt: - | var: -", "n_params": 4, "complex": false, "module": "tarfile"}
+{"sig": "cls, x, y", "target": "req: cls, x, y | opt: - | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "cls, root", "target": "req: cls, root | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, indent=''", "target": "req: self | opt: indent | var: -", "n_params": 2, "complex": true, "module": "email"}
+{"sig": "object_list, timeout=None", "target": "req: object_list | opt: timeout | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, action, arg_strings", "target": "req: self, action, arg_strings | opt: - | var: -", "n_params": 3, "complex": false, "module": "argparse"}
+{"sig": "cmd, mode='r', buffering=-1", "target": "req: cmd | opt: mode, buffering | var: -", "n_params": 3, "complex": true, "module": "os"}
+{"sig": "self, address=None, family=None, backlog=1", "target": "req: self | opt: address, family, backlog | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, text=''", "target": "req: self | opt: text | var: -", "n_params": 2, "complex": true, "module": "ast"}
+{"sig": "self, level=None", "target": "req: self | opt: level | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, lock=None, *, ctx", "target": "req: self, ctx | opt: lock | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, arg_strings, namespace, intermixed", "target": "req: self, arg_strings, namespace, intermixed | opt: - | var: -", "n_params": 4, "complex": false, "module": "argparse"}
+{"sig": "scheme, vars", "target": "req: scheme, vars | opt: - | var: -", "n_params": 2, "complex": false, "module": "sysconfig"}
+{"sig": "code, run_globals, init_globals=None, mod_name=None, mod_spec=None, pkg_name=None, script_name=None", "target": "req: code, run_globals | opt: init_globals, mod_name, mod_spec, pkg_name, script_name | var: -", "n_params": 7, "complex": false, "module": "runpy"}
+{"sig": "self, namespaceURI, qualifiedName", "target": "req: self, namespaceURI, qualifiedName | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, buffer", "target": "req: self, buffer | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, outfp, mangle_from_=None, maxheaderlen=None, *, policy=None", "target": "req: self, outfp | opt: mangle_from_, maxheaderlen, policy | var: -", "n_params": 5, "complex": false, "module": "email"}
+{"sig": "cls, buf, encoding, errors", "target": "req: cls, buf, encoding, errors | opt: - | var: -", "n_params": 4, "complex": false, "module": "tarfile"}
+{"sig": "self, url, fp, errcode, errmsg, headers, data", "target": "req: self, url, fp, errcode, errmsg, headers, data | opt: - | var: -", "n_params": 7, "complex": false, "module": "urllib"}
+{"sig": "self, failobj, header", "target": "req: self, failobj, header | opt: - | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "self, fileobj, offset, size, name, blockinfo=None", "target": "req: self, fileobj, offset, size, name | opt: blockinfo | var: -", "n_params": 6, "complex": false, "module": "tarfile"}
+{"sig": "self, from_, time_=None", "target": "req: self, from_ | opt: time_ | var: -", "n_params": 3, "complex": false, "module": "mailbox"}
+{"sig": "self, chain, kind, meth_name, *args", "target": "req: self, chain, kind, meth_name | opt: - | var: *args", "n_params": 5, "complex": false, "module": "urllib"}
+{"sig": "obj, encoding=_implicit_encoding, errors=_implicit_errors", "target": "req: obj | opt: encoding, errors | var: -", "n_params": 3, "complex": false, "module": "urllib"}
+{"sig": "stream_or_string, parser=None, bufsize=None", "target": "req: stream_or_string | opt: parser, bufsize | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "s, n", "target": "req: s, n | opt: - | var: -", "n_params": 2, "complex": false, "module": "_pydatetime"}
+{"sig": "self, name, publicId, systemId, ndata", "target": "req: self, name, publicId, systemId, ndata | opt: - | var: -", "n_params": 5, "complex": false, "module": "xml"}
+{"sig": "domain, localedir=None", "target": "req: domain | opt: localedir | var: -", "n_params": 2, "complex": false, "module": "gettext"}
+{"sig": "self, fp, default_netrc, login", "target": "req: self, fp, default_netrc, login | opt: - | var: -", "n_params": 4, "complex": false, "module": "netrc"}
+{"sig": "self, polygon, compound=False", "target": "req: self, polygon | opt: compound | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "cls, attr", "target": "req: cls, attr | opt: - | var: -", "n_params": 2, "complex": false, "module": "enum"}
+{"sig": "sentinels, change_notifier, timeout=None", "target": "req: sentinels, change_notifier | opt: timeout | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, req, fp, code, msg, hdrs", "target": "req: self, req, fp, code, msg, hdrs | opt: - | var: -", "n_params": 6, "complex": false, "module": "urllib"}
+{"sig": "s, amount", "target": "req: s, amount | opt: - | var: -", "n_params": 2, "complex": false, "module": "locale"}
+{"sig": "cls, registry, address, authkey, serializer, writer, initializer=None, initargs=()", "target": "req: cls, registry, address, authkey, serializer, writer | opt: initializer, initargs | var: -", "n_params": 8, "complex": true, "module": "multiprocessing"}
+{"sig": "cls_name, name", "target": "req: cls_name, name | opt: - | var: -", "n_params": 2, "complex": false, "module": "enum"}
+{"sig": "self, context, options=None", "target": "req: self, context | opt: options | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, i, obj", "target": "req: self, i, obj | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, bufsize=None", "target": "req: self | opt: bufsize | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "self, req, chal", "target": "req: self, req, chal | opt: - | var: -", "n_params": 3, "complex": false, "module": "urllib"}
+{"sig": "self, path, data, *, _mode=438", "target": "req: self, path, data | opt: _mode | var: -", "n_params": 4, "complex": false, "module": "importlib"}
+{"sig": "self, next, pax_headers, tarfile", "target": "req: self, next, pax_headers, tarfile | opt: - | var: -", "n_params": 4, "complex": false, "module": "tarfile"}
+{"sig": "self, member", "target": "req: self, member | opt: - | var: -", "n_params": 2, "complex": false, "module": "tarfile"}
+{"sig": "self, shapeIndex", "target": "req: self, shapeIndex | opt: - | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "self, option_strings, version=None, dest=SUPPRESS, default=SUPPRESS, help=None, deprecated=False", "target": "req: self, option_strings | opt: version, dest, default, help, deprecated | var: -", "n_params": 7, "complex": false, "module": "argparse"}
+{"sig": "self, name, aliases, help", "target": "req: self, name, aliases, help | opt: - | var: -", "n_params": 4, "complex": false, "module": "argparse"}
+{"sig": "self, pos=0", "target": "req: self | opt: pos | var: -", "n_params": 2, "complex": false, "module": "tarfile"}
+{"sig": "self, et, ev, tb", "target": "req: self, et, ev, tb | opt: - | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "self, fun, key=None", "target": "req: self, fun | opt: key | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "self, base_class=BaseHeader, default_class=UnstructuredHeader, use_default_map=True", "target": "req: self | opt: base_class, default_class, use_default_map | var: -", "n_params": 4, "complex": false, "module": "email"}
+{"sig": "self, attr, /, *attrs", "target": "req: self, attr | opt: - | var: *attrs", "n_params": 3, "complex": false, "module": "operator"}
+{"sig": "msg, data, maintype, subtype, cte='base64', disposition=None, filename=None, cid=None, params=None, headers=None", "target": "req: msg, data, maintype, subtype | opt: cte, disposition, filename, cid, params, headers | var: -", "n_params": 10, "complex": true, "module": "email"}
+{"sig": "release='', api_level=0, manufacturer='', model='', device='', is_emulator=False", "target": "req: - | opt: release, api_level, manufacturer, model, device, is_emulator | var: -", "n_params": 6, "complex": true, "module": "platform"}
+{"sig": "value, endchars", "target": "req: value, endchars | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, attrs, attrsNS, ownerElement", "target": "req: self, attrs, attrsNS, ownerElement | opt: - | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "cls, fullname", "target": "req: cls, fullname | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "self, container, title=None, description=None, **kwargs", "target": "req: self, container | opt: title, description | var: **kwargs", "n_params": 5, "complex": false, "module": "argparse"}
+{"sig": "func, it, size", "target": "req: func, it, size | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "self, e", "target": "req: self, e | opt: - | var: -", "n_params": 2, "complex": false, "module": "tarfile"}
+{"sig": "self, message, key", "target": "req: self, message, key | opt: - | var: -", "n_params": 3, "complex": false, "module": "mailbox"}
+{"sig": "self, mode='r', bufsize=-1, encoding=None, errors=None", "target": "req: self | opt: mode, bufsize, encoding, errors | var: -", "n_params": 5, "complex": true, "module": "argparse"}
+{"sig": "self, env_dir, name", "target": "req: self, env_dir, name | opt: - | var: -", "n_params": 3, "complex": false, "module": "venv"}
+{"sig": "k, v", "target": "req: k, v | opt: - | var: -", "n_params": 2, "complex": false, "module": "ast"}
+{"sig": "self, typecode_or_type, *args, lock=True", "target": "req: self, typecode_or_type | opt: lock | var: *args", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "fs, return_when", "target": "req: fs, return_when | opt: - | var: -", "n_params": 2, "complex": false, "module": "concurrent"}
+{"sig": "self, loader, module", "target": "req: self, loader, module | opt: - | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "self, titlestring", "target": "req: self, titlestring | opt: - | var: -", "n_params": 2, "complex": false, "module": "turtle"}
+{"sig": "self, format=DEFAULT_FORMAT, encoding=ENCODING, errors='surrogateescape'", "target": "req: self | opt: format, encoding, errors | var: -", "n_params": 4, "complex": true, "module": "tarfile"}
+{"sig": "self, index, subelement", "target": "req: self, index, subelement | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, pen=None, **pendict", "target": "req: self | opt: pen | var: **pendict", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "self, typeid, /, *args, **kwds", "target": "req: self, typeid | opt: - | var: *args, **kwds", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, message, file=None", "target": "req: self, message | opt: file | var: -", "n_params": 3, "complex": false, "module": "argparse"}
+{"sig": "self, fp=None", "target": "req: self | opt: fp | var: -", "n_params": 2, "complex": false, "module": "gettext"}
+{"sig": "self, poly, fill, outline=None", "target": "req: self, poly, fill | opt: outline | var: -", "n_params": 4, "complex": false, "module": "turtle"}
+{"sig": "self, text, headersonly=False", "target": "req: self, text | opt: headersonly | var: -", "n_params": 3, "complex": false, "module": "email"}
+{"sig": "self, text, line, begidx, endidx", "target": "req: self, text, line, begidx, endidx | opt: - | var: -", "n_params": 5, "complex": false, "module": "pdb"}
+{"sig": "self, ind", "target": "req: self, ind | opt: - | var: -", "n_params": 2, "complex": false, "module": "multiprocessing"}
+{"sig": "self, usage, actions, groups, prefix=None", "target": "req: self, usage, actions, groups | opt: prefix | var: -", "n_params": 5, "complex": false, "module": "argparse"}
+{"sig": "self, header", "target": "req: self, header | opt: - | var: -", "n_params": 2, "complex": false, "module": "urllib"}
+{"sig": "self, pathname, basename", "target": "req: self, pathname, basename | opt: - | var: -", "n_params": 3, "complex": false, "module": "zipfile"}
+{"sig": "self, dest, **kwargs", "target": "req: self, dest | opt: - | var: **kwargs", "n_params": 3, "complex": false, "module": "argparse"}
+{"sig": "domain, msgid1, msgid2, n", "target": "req: domain, msgid1, msgid2, n | opt: - | var: -", "n_params": 4, "complex": false, "module": "gettext"}
+{"sig": "mcls, classdict, member_type, first_enum", "target": "req: mcls, classdict, member_type, first_enum | opt: - | var: -", "n_params": 4, "complex": false, "module": "enum"}
+{"sig": "self, msg, obj, *args, **kw", "target": "req: self, msg, obj | opt: - | var: *args, **kw", "n_params": 5, "complex": false, "module": "email"}
+{"sig": "self, url, fp, errcode, errmsg, headers, data=None, retry=False", "target": "req: self, url, fp, errcode, errmsg, headers | opt: data, retry | var: -", "n_params": 8, "complex": false, "module": "urllib"}
+{"sig": "self, zinfo_or_arcname, data, compress_type=None, compresslevel=None", "target": "req: self, zinfo_or_arcname, data | opt: compress_type, compresslevel | var: -", "n_params": 5, "complex": false, "module": "zipfile"}
+{"sig": "self, obj, lock=None, ctx=None", "target": "req: self, obj | opt: lock, ctx | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, c, segment_name", "target": "req: self, c, segment_name | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "pattern, namespaces=None", "target": "req: pattern | opt: namespaces | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, context, *py_args, **kwargs", "target": "req: self, context | opt: - | var: *py_args, **kwargs", "n_params": 4, "complex": false, "module": "venv"}
+{"sig": "file, optimize=-1", "target": "req: file | opt: optimize | var: -", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "self, c, token", "target": "req: self, c, token | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "name, package, level", "target": "req: name, package, level | opt: - | var: -", "n_params": 3, "complex": false, "module": "importlib"}
+{"sig": "self, arg_strings", "target": "req: self, arg_strings | opt: - | var: -", "n_params": 2, "complex": false, "module": "argparse"}
+{"sig": "off, sep=':'", "target": "req: off | opt: sep | var: -", "n_params": 2, "complex": true, "module": "_pydatetime"}
+{"sig": "self, txt, align, font", "target": "req: self, txt, align, font | opt: - | var: -", "n_params": 4, "complex": false, "module": "turtle"}
+{"sig": "self, c, name", "target": "req: self, c, name | opt: - | var: -", "n_params": 3, "complex": false, "module": "multiprocessing"}
+{"sig": "s, monetary=False", "target": "req: s | opt: monetary | var: -", "n_params": 2, "complex": false, "module": "locale"}
+{"sig": "self, action, default_metavar", "target": "req: self, action, default_metavar | opt: - | var: -", "n_params": 3, "complex": false, "module": "argparse"}
+{"sig": "self, *text", "target": "req: self | opt: - | var: *text", "n_params": 2, "complex": false, "module": "ast"}
+{"sig": "self, info, encoding", "target": "req: self, info, encoding | opt: - | var: -", "n_params": 3, "complex": false, "module": "tarfile"}
+{"sig": "self, args, remote, autoraise, url=None", "target": "req: self, args, remote, autoraise | opt: url | var: -", "n_params": 5, "complex": false, "module": "webbrowser"}
+{"sig": "self, pathname, basename='', filterfunc=None", "target": "req: self, pathname | opt: basename, filterfunc | var: -", "n_params": 4, "complex": true, "module": "zipfile"}
+{"sig": "self, out=None, encoding='iso-8859-1', short_empty_elements=False", "target": "req: self | opt: out, encoding, short_empty_elements | var: -", "n_params": 4, "complex": true, "module": "xml"}
+{"sig": "self, path, namespaces=None", "target": "req: self, path | opt: namespaces | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, user, passwd, host, port, dirs, timeout=None, persistent=True", "target": "req: self, user, passwd, host, port, dirs | opt: timeout, persistent | var: -", "n_params": 8, "complex": false, "module": "urllib"}
+{"sig": "query, doseq=False, safe='', encoding=None, errors=None, quote_via=quote_plus", "target": "req: query | opt: doseq, safe, encoding, errors, quote_via | var: -", "n_params": 6, "complex": true, "module": "urllib"}
+{"sig": "self, options=None", "target": "req: self | opt: options | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, name, state", "target": "req: self, name, state | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, title, prompt", "target": "req: self, title, prompt | opt: - | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "child_r, fds, unused_fds, handlers", "target": "req: child_r, fds, unused_fds, handlers | opt: - | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, n=None, delay=None", "target": "req: self | opt: n, delay | var: -", "n_params": 3, "complex": false, "module": "turtle"}
+{"sig": "self, token, iterable", "target": "req: self, token, iterable | opt: - | var: -", "n_params": 3, "complex": false, "module": "tokenize"}
+{"sig": "self, arg, temporary=0", "target": "req: self, arg | opt: temporary | var: -", "n_params": 3, "complex": false, "module": "pdb"}
+{"sig": "self, item: str", "target": "req: self, item | opt: - | var: -", "n_params": 2, "complex": false, "module": "importlib"}
+{"sig": "executable=None, lib='', version='', chunksize=16384", "target": "req: - | opt: executable, lib, version, chunksize | var: -", "n_params": 4, "complex": true, "module": "platform"}
+{"sig": "etype, name, module, filter, source=None, *, boundary=None", "target": "req: etype, name, module, filter | opt: source, boundary | var: -", "n_params": 6, "complex": false, "module": "enum"}
+{"sig": "domain, localedir=None, *, names=None", "target": "req: domain | opt: localedir, names | var: -", "n_params": 3, "complex": false, "module": "gettext"}
+{"sig": "self, value=_auto_null", "target": "req: self | opt: value | var: -", "n_params": 2, "complex": false, "module": "enum"}
+{"sig": "context, message", "target": "req: context, message | opt: - | var: -", "n_params": 2, "complex": false, "module": "gettext"}
+{"sig": "self, charset", "target": "req: self, charset | opt: - | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "self, newChild, refChild", "target": "req: self, newChild, refChild | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "path=None, prefix='', onerror=None", "target": "req: - | opt: path, prefix, onerror | var: -", "n_params": 3, "complex": true, "module": "pkgutil"}
+{"sig": "self, context, base, sysid, pubid", "target": "req: self, context, base, sysid, pubid | opt: - | var: -", "n_params": 5, "complex": false, "module": "xml"}
+{"sig": "s, altchars=None", "target": "req: s | opt: altchars | var: -", "n_params": 2, "complex": false, "module": "base64"}
+{"sig": "cls, tarfile", "target": "req: cls, tarfile | opt: - | var: -", "n_params": 2, "complex": false, "module": "tarfile"}
+{"sig": "name=None, features=()", "target": "req: - | opt: name, features | var: -", "n_params": 2, "complex": true, "module": "xml"}
+{"sig": "self, qName", "target": "req: self, qName | opt: - | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, stream, options", "target": "req: self, stream, options | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, pattern", "target": "req: self, pattern | opt: - | var: -", "n_params": 2, "complex": false, "module": "zipfile"}
+{"sig": "self, name, value, refold_binary=False", "target": "req: self, name, value | opt: refold_binary | var: -", "n_params": 4, "complex": false, "module": "email"}
+{"sig": "domain, localedir=None, languages=None, class_=None, fallback=False", "target": "req: domain | opt: localedir, languages, class_, fallback | var: -", "n_params": 5, "complex": false, "module": "gettext"}
+{"sig": "path_name, init_globals=None, run_name=None", "target": "req: path_name | opt: init_globals, run_name | var: -", "n_params": 3, "complex": false, "module": "runpy"}
+{"sig": "dt=None, isdst=None", "target": "req: - | opt: dt, isdst | var: -", "n_params": 2, "complex": false, "module": "email"}
+{"sig": "ns, name, pathname, cpathname=None", "target": "req: ns, name, pathname | opt: cpathname | var: -", "n_params": 4, "complex": false, "module": "importlib"}
+{"sig": "self, name, sysid, pubid, has_internal_subset", "target": "req: self, name, sysid, pubid, has_internal_subset | opt: - | var: -", "n_params": 5, "complex": false, "module": "xml"}
+{"sig": "self, info", "target": "req: self, info | opt: - | var: -", "n_params": 2, "complex": false, "module": "mailbox"}
+{"sig": "x, memo", "target": "req: x, memo | opt: - | var: -", "n_params": 2, "complex": false, "module": "copy"}
+{"sig": "self, auth_header, host, req, headers", "target": "req: self, auth_header, host, req, headers | opt: - | var: -", "n_params": 5, "complex": false, "module": "urllib"}
+{"sig": "handle, target_process=None, inheritable=False, *, source_process=None", "target": "req: handle | opt: target_process, inheritable, source_process | var: -", "n_params": 4, "complex": false, "module": "multiprocessing"}
+{"sig": "self, namespaceURI, qualifiedName, doctype", "target": "req: self, namespaceURI, qualifiedName, doctype | opt: - | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "self, path, default=None, namespaces=None", "target": "req: self, path | opt: default, namespaces | var: -", "n_params": 4, "complex": false, "module": "xml"}
+{"sig": "code, lasti", "target": "req: code, lasti | opt: - | var: -", "n_params": 2, "complex": false, "module": "pdb"}
+{"sig": "self, seq=()", "target": "req: self | opt: seq | var: -", "n_params": 2, "complex": true, "module": "xml"}
+{"sig": "self, *checks", "target": "req: self | opt: - | var: *checks", "n_params": 2, "complex": false, "module": "enum"}
+{"sig": "self, documentFactory=None", "target": "req: self | opt: documentFactory | var: -", "n_params": 2, "complex": false, "module": "xml"}
+{"sig": "self, name, tarinfo=None, normalize=False", "target": "req: self, name | opt: tarinfo, normalize | var: -", "n_params": 4, "complex": false, "module": "tarfile"}
+{"sig": "self, name, tagName", "target": "req: self, name, tagName | opt: - | var: -", "n_params": 3, "complex": false, "module": "xml"}
+{"sig": "self, s, _w=WHITESPACE.match", "target": "req: self, s | opt: _w | var: -", "n_params": 3, "complex": false, "module": "json"}
+{"sig": "self, *paths", "target": "req: self | opt: - | var: *paths", "n_params": 2, "complex": false, "module": "importlib"}

@@ -1,0 +1,324 @@
+{"sig": "ok_to_start, previous_failed", "target": "req: ok_to_start, previous_failed | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "source, destination", "target": "req: source, destination | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "concurrent, source", "target": "req: concurrent, source | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, theweek, width", "target": "req: self, theweek, width | opt: - | var: -", "n_params": 3, "complex": false, "module": "calendar"}
+{"sig": "fut, result", "target": "req: fut, result | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, pid, callback, *args", "target": "req: self, pid, callback | opt: - | var: *args", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "func, args, kwargs, *, debug=False, suffix=''", "target": "req: func, args, kwargs | opt: debug, suffix | var: -", "n_params": 5, "complex": true, "module": "asyncio"}
+{"sig": "task, limit, file", "target": "req: task, limit, file | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, fut, sock, buf, bufsize", "target": "req: self, fut, sock, buf, bufsize | opt: - | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "path=None, *, limit=_DEFAULT_LIMIT, **kwds", "target": "req: - | opt: path, limit | var: **kwds", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, func_name", "target": "req: self, func_name | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "cmd, stdin=None, stdout=None, stderr=None, limit=streams._DEFAULT_LIMIT, **kwds", "target": "req: cmd | opt: stdin, stdout, stderr, limit | var: **kwds", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "self, future", "target": "req: self, future | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, exc, message='Fatal error on pipe transport'", "target": "req: self, exc | opt: message | var: -", "n_params": 3, "complex": true, "module": "asyncio"}
+{"sig": "self, executor, func, *args", "target": "req: self, executor, func | opt: - | var: *args", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "loop", "target": "req: loop | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, protocol_factory, path=None, *, sock=None, backlog=100, ssl=None, ssl_handshake_timeout=None, ssl_shutdown_timeout=None, start_serving=True", "target": "req: self, protocol_factory | opt: path, sock, backlog, ssl, ssl_handshake_timeout, ssl_shutdown_timeout, start_serving | var: -", "n_params": 9, "complex": false, "module": "asyncio"}
+{"sig": "self, *, limit=None, file=None", "target": "req: self | opt: limit, file | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, data, addr=None", "target": "req: self, data | opt: addr | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "code, strs", "target": "req: code, strs | opt: - | var: -", "n_params": 2, "complex": false, "module": "trace"}
+{"sig": "self, predicate", "target": "req: self, predicate | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, theweek", "target": "req: self, theweek | opt: - | var: -", "n_params": 2, "complex": false, "module": "calendar"}
+{"sig": "self, day, weekday, width", "target": "req: self, day, weekday, width | opt: - | var: -", "n_params": 4, "complex": false, "module": "calendar"}
+{"sig": "func, path, *args", "target": "req: func, path | opt: - | var: *args", "n_params": 3, "complex": false, "module": "tempfile"}
+{"sig": "self, coro, *, name=None, context=None, **kwargs", "target": "req: self, coro | opt: name, context | var: **kwargs", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, filename, modulename", "target": "req: self, filename, modulename | opt: - | var: -", "n_params": 3, "complex": false, "module": "trace"}
+{"sig": "future", "target": "req: future | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, fut, registered_fd, sock, fileno, offset, count, blocksize, total_sent", "target": "req: self, fut, registered_fd, sock, fileno, offset, count, blocksize, total_sent | opt: - | var: -", "n_params": 9, "complex": false, "module": "asyncio"}
+{"sig": "self, fut, sock, data, address", "target": "req: self, fut, sock, data, address | opt: - | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, month", "target": "req: self, month | opt: - | var: -", "n_params": 2, "complex": false, "module": "calendar"}
+{"sig": "self, children, *, loop", "target": "req: self, children, loop | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, fut, sock, n", "target": "req: self, fut, sock, n | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, fut, sock, view, pos", "target": "req: self, fut, sock, view, pos | opt: - | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, host, port, *, family=0, type=0, proto=0, flags=0", "target": "req: self, host, port | opt: family, type, proto, flags | var: -", "n_params": 7, "complex": false, "module": "asyncio"}
+{"sig": "fut", "target": "req: fut | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "s1, s2", "target": "req: s1, s2 | opt: - | var: -", "n_params": 2, "complex": false, "module": "genericpath"}
+{"sig": "self, shutdown_exc", "target": "req: self, shutdown_exc | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, sock, protocol_factory, ssl, server_hostname, server_side=False, ssl_handshake_timeout=None, ssl_shutdown_timeout=None", "target": "req: self, sock, protocol_factory, ssl, server_hostname | opt: server_side, ssl_handshake_timeout, ssl_shutdown_timeout | var: -", "n_params": 8, "complex": false, "module": "asyncio"}
+{"sig": "self, transport, file, offset=0, count=None, *, fallback=True", "target": "req: self, transport, file | opt: offset, count, fallback | var: -", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "self, ov, obj, callback", "target": "req: self, ov, obj, callback | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, theyear, themonth, withyear=True", "target": "req: self, theyear, themonth | opt: withyear | var: -", "n_params": 4, "complex": false, "module": "calendar"}
+{"sig": "self, transport", "target": "req: self, transport | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, warnings=warnings", "target": "req: self | opt: warnings | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, theyear, w=2, l=1, c=6, m=3", "target": "req: self, theyear | opt: w, l, c, m | var: -", "n_params": 6, "complex": false, "module": "calendar"}
+{"sig": "self, selector=None", "target": "req: self | opt: selector | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, handle, timeout, _is_cancel", "target": "req: self, handle, timeout, _is_cancel | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, fut, sock", "target": "req: self, fut, sock | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, protocol_factory, *args, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, **kwargs", "target": "req: self, protocol_factory | opt: stdin, stdout, stderr | var: *args, **kwargs", "n_params": 7, "complex": false, "module": "asyncio"}
+{"sig": "self, family", "target": "req: self, family | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, extra=None, loop=None", "target": "req: self | opt: extra, loop | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, exc_type, exc_val, exc_tb", "target": "req: self, exc_type, exc_val, exc_tb | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "loop, task", "target": "req: loop, task | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, firstweekday", "target": "req: self, firstweekday | opt: - | var: -", "n_params": 2, "complex": false, "module": "calendar"}
+{"sig": "fs, *, timeout=None, return_when=ALL_COMPLETED", "target": "req: fs | opt: timeout, return_when | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, counts=None, calledfuncs=None, infile=None, callers=None, outfile=None", "target": "req: self | opt: counts, calledfuncs, infile, callers, outfile | var: -", "n_params": 6, "complex": false, "module": "trace"}
+{"sig": "self, exceptions, addr_info, local_addr_infos=None", "target": "req: self, exceptions, addr_info | opt: local_addr_infos | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "f=None", "target": "req: - | opt: f | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, show_missing=True, summary=False, coverdir=None, *, ignore_missing_files=False", "target": "req: self | opt: show_missing, summary, coverdir, ignore_missing_files | var: -", "n_params": 5, "complex": false, "module": "trace"}
+{"sig": "self, new_state", "target": "req: self, new_state | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "h, s, v", "target": "req: h, s, v | opt: - | var: -", "n_params": 3, "complex": false, "module": "colorsys"}
+{"sig": "self, protocol_factory, sock, *, ssl=None, ssl_handshake_timeout=None, ssl_shutdown_timeout=None", "target": "req: self, protocol_factory, sock | opt: ssl, ssl_handshake_timeout, ssl_shutdown_timeout | var: -", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "self, locals, loop", "target": "req: self, locals, loop | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "future, *, loop=None", "target": "req: future | opt: loop | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, iterable", "target": "req: self, iterable | opt: - | var: -", "n_params": 2, "complex": false, "module": "tempfile"}
+{"sig": "node=None, clock_seq=None", "target": "req: - | opt: node, clock_seq | var: -", "n_params": 2, "complex": false, "module": "uuid"}
+{"sig": "self, sock, data, address", "target": "req: self, sock, data, address | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, data, addr", "target": "req: self, data, addr | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "cls, name, ignore_errors=False, repeated=False, dir_fd=None, fullname=None", "target": "req: cls, name | opt: ignore_errors, repeated, dir_fd, fullname | var: -", "n_params": 6, "complex": false, "module": "tempfile"}
+{"sig": "self, high=None, low=None", "target": "req: self | opt: high, low | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, nbytes: int", "target": "req: self, nbytes | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, sock, bufsize", "target": "req: self, sock, bufsize | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, exc, value, tb", "target": "req: self, exc, value, tb | opt: - | var: -", "n_params": 4, "complex": false, "module": "tempfile"}
+{"sig": "self, hex=None, bytes=None, bytes_le=None, fields=None, int=None, version=None, *, is_safe=SafeUUID.unknown", "target": "req: self | opt: hex, bytes, bytes_le, fields, int, version, is_safe | var: -", "n_params": 8, "complex": false, "module": "uuid"}
+{"sig": "y1, y2", "target": "req: y1, y2 | opt: - | var: -", "n_params": 2, "complex": false, "module": "calendar"}
+{"sig": "self, handshake_exc", "target": "req: self, handshake_exc | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "transport, sock", "target": "req: transport, sock | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, loop, ssl_protocol", "target": "req: self, loop, ssl_protocol | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, callback, method", "target": "req: self, callback, method | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, data, length", "target": "req: self, data, length | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, stream_reader, client_connected_cb=None, loop=None", "target": "req: self, stream_reader | opt: client_connected_cb, loop | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, resolve=False", "target": "req: self | opt: resolve | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "trans, key, ov", "target": "req: trans, key, ov | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, task", "target": "req: self, task | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, event, done_callback", "target": "req: self, event, done_callback | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, f=None, data=None", "target": "req: self | opt: f, data | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "h, l, s", "target": "req: h, l, s | opt: - | var: -", "n_params": 3, "complex": false, "module": "colorsys"}
+{"sig": "self, loop, sockets, protocol_factory, ssl_context, backlog, ssl_handshake_timeout, ssl_shutdown_timeout=None", "target": "req: self, loop, sockets, protocol_factory, ssl_context, backlog, ssl_handshake_timeout | opt: ssl_shutdown_timeout | var: -", "n_params": 8, "complex": false, "module": "asyncio"}
+{"sig": "self, sock, address", "target": "req: self, sock, address | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, delay, callback, *args, context=None", "target": "req: self, delay, callback | opt: context | var: *args", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, locale", "target": "req: self, locale | opt: - | var: -", "n_params": 2, "complex": false, "module": "calendar"}
+{"sig": "mac", "target": "req: mac | opt: - | var: -", "n_params": 1, "complex": false, "module": "uuid"}
+{"sig": "self, day, weekday", "target": "req: self, day, weekday | opt: - | var: -", "n_params": 3, "complex": false, "module": "calendar"}
+{"sig": "self, signum, frame, main_task", "target": "req: self, signum, frame, main_task | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, _warnings=warnings", "target": "req: self | opt: _warnings | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, protocol, args, shell, stdin, stdout, stderr, bufsize, extra=None, **kwargs", "target": "req: self, protocol, args, shell, stdin, stdout, stderr, bufsize | opt: extra | var: **kwargs", "n_params": 10, "complex": false, "module": "asyncio"}
+{"sig": "cols, colwidth=_colwidth, spacing=_spacing", "target": "req: cols | opt: colwidth, spacing | var: -", "n_params": 3, "complex": false, "module": "calendar"}
+{"sig": "fs, *, timeout=None", "target": "req: fs | opt: timeout | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "*coros_or_futures, return_exceptions=False", "target": "req: - | opt: return_exceptions | var: *coros_or_futures", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "prefix, suffix, dir", "target": "req: prefix, suffix, dir | opt: - | var: -", "n_params": 3, "complex": false, "module": "tempfile"}
+{"sig": "self, conn, nbytes, flags=0", "target": "req: self, conn, nbytes | opt: flags | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "awaitable", "target": "req: awaitable | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, conn, address", "target": "req: self, conn, address | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, when, callback, *args, context=None", "target": "req: self, when, callback | opt: context | var: *args", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, _warn=warnings.warn", "target": "req: self | opt: _warn | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, loop, sock, protocol, waiter=None, extra=None, server=None, buffer_size=65536", "target": "req: self, loop, sock, protocol | opt: waiter, extra, server, buffer_size | var: -", "n_params": 8, "complex": false, "module": "asyncio"}
+{"sig": "self, first", "target": "req: self, first | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, concurrency=INFINITE", "target": "req: self | opt: concurrency | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, returncode", "target": "req: self, returncode | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, sock, nbytes", "target": "req: self, sock, nbytes | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, weekday", "target": "req: self, weekday | opt: - | var: -", "n_params": 2, "complex": false, "module": "calendar"}
+{"sig": "self, when, callback, args, loop, context=None", "target": "req: self, when, callback, args, loop | opt: context | var: -", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "self, callback, args, context", "target": "req: self, callback, args, context | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "word", "target": "req: word | opt: - | var: -", "n_params": 1, "complex": false, "module": "uuid"}
+{"sig": "self, ov", "target": "req: self, ov | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, fd, exc", "target": "req: self, fd, exc | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, proactor=None", "target": "req: self | opt: proactor | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, event_list", "target": "req: self, event_list | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, loop, sock, protocol, address=None, waiter=None, extra=None", "target": "req: self, loop, sock, protocol | opt: address, waiter, extra | var: -", "n_params": 7, "complex": false, "module": "asyncio"}
+{"sig": "inner", "target": "req: inner | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "destination", "target": "req: destination | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, proactor", "target": "req: self, proactor | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "signum, frame", "target": "req: signum, frame | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "name, dir_fd, path", "target": "req: name, dir_fd, path | opt: - | var: -", "n_params": 3, "complex": false, "module": "tempfile"}
+{"sig": "self, sock, file, offset=0, count=None, *, fallback=None", "target": "req: self, sock, file | opt: offset, count, fallback | var: -", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "self, ov, *, loop=None", "target": "req: self, ov | opt: loop | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "task", "target": "req: task | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, protocol_factory, address", "target": "req: self, protocol_factory, address | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "suffix=None, prefix=None, dir=None, text=False", "target": "req: - | opt: suffix, prefix, dir, text | var: -", "n_params": 4, "complex": false, "module": "tempfile"}
+{"sig": "func, /, *args, **kwargs", "target": "req: func | opt: - | var: *args, **kwargs", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, *exc", "target": "req: self | opt: - | var: *exc", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, sslcontext, *, server_hostname=None, ssl_handshake_timeout=None, ssl_shutdown_timeout=None", "target": "req: self, sslcontext | opt: server_hostname, ssl_handshake_timeout, ssl_shutdown_timeout | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "future, conn", "target": "req: future, conn | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, cb, *data", "target": "req: self, cb | opt: - | var: *data", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, sock, n", "target": "req: self, sock, n | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "funcname, *args", "target": "req: funcname | opt: - | var: *args", "n_params": 2, "complex": false, "module": "genericpath"}
+{"sig": "self, transport, protocol, loop", "target": "req: self, transport, protocol, loop | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "watcher", "target": "req: watcher | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, fd, data", "target": "req: self, fd, data | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "host, port, family, type, proto, flowinfo=0, scopeid=0", "target": "req: host, port, family, type, proto | opt: flowinfo, scopeid | var: -", "n_params": 7, "complex": false, "module": "asyncio"}
+{"sig": "self, loop, pipe, protocol, waiter=None, extra=None", "target": "req: self, loop, pipe, protocol | opt: waiter, extra | var: -", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "self, fut=None", "target": "req: self | opt: fut | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, loop, expected_pid, callback, args", "target": "req: self, loop, expected_pid, callback, args | opt: - | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "exc_val: BaseException", "target": "req: exc_val | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "coro", "target": "req: coro | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, exc: BaseException", "target": "req: self, exc | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "delay: Optional[float]", "target": "req: delay | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, transp, file, offset, count", "target": "req: self, transp, file, offset, count | opt: - | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "m1, m2, hue", "target": "req: m1, m2, hue | opt: - | var: -", "n_params": 3, "complex": false, "module": "colorsys"}
+{"sig": "command, args, keywords, get_word_index", "target": "req: command, args, keywords, get_word_index | opt: - | var: -", "n_params": 4, "complex": false, "module": "uuid"}
+{"sig": "self, sock, file, offset=0, count=None, *, fallback=True", "target": "req: self, sock, file | opt: offset, count, fallback | var: -", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "self, expected_pid", "target": "req: self, expected_pid | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "delay, result=None", "target": "req: delay | opt: result | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, fut, sock, buf", "target": "req: self, fut, sock, buf | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "firstweekday", "target": "req: firstweekday | opt: - | var: -", "n_params": 1, "complex": false, "module": "calendar"}
+{"sig": "self, *, CloseHandle=_winapi.CloseHandle", "target": "req: self | opt: CloseHandle | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, ov, handle, wait_handle, proactor, *, loop=None", "target": "req: self, ov, handle, wait_handle, proactor | opt: loop | var: -", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "self, proc, fd", "target": "req: self, proc, fd | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, protocol_factory, sock, sslcontext=None, server=None, backlog=100, ssl_handshake_timeout=None, ssl_shutdown_timeout=None", "target": "req: self, protocol_factory, sock | opt: sslcontext, server, backlog, ssl_handshake_timeout, ssl_shutdown_timeout | var: -", "n_params": 8, "complex": false, "module": "asyncio"}
+{"sig": "func, args, *, debug=False", "target": "req: func, args | opt: debug | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, protocol_factory, pipe", "target": "req: self, protocol_factory, pipe | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, executor", "target": "req: self, executor | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "suffix='', prefix=template, dir=None", "target": "req: - | opt: suffix, prefix, dir | var: -", "n_params": 3, "complex": true, "module": "tempfile"}
+{"sig": "self, modules=None, dirs=None", "target": "req: self | opt: modules, dirs | var: -", "n_params": 3, "complex": false, "module": "trace"}
+{"sig": "command, *args", "target": "req: command | opt: - | var: *args", "n_params": 2, "complex": false, "module": "uuid"}
+{"sig": "self, frame, why, arg", "target": "req: self, frame, why, arg | opt: - | var: -", "n_params": 4, "complex": false, "module": "trace"}
+{"sig": "self, exc_type: Optional[Type[BaseException]], exc_val: Optional[BaseException], exc_tb: Optional[TracebackType]", "target": "req: self, exc_type, exc_val, exc_tb | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "fut, timeout", "target": "req: fut, timeout | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, fn, *, context=None", "target": "req: self, fn | opt: context | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, pipe, protocol, waiter=None, extra=None", "target": "req: self, pipe, protocol | opt: waiter, extra | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, args, shell, stdin, stdout, stderr, bufsize, **kwargs", "target": "req: self, args, shell, stdin, stdout, stderr, bufsize | opt: - | var: **kwargs", "n_params": 8, "complex": false, "module": "asyncio"}
+{"sig": "outer", "target": "req: outer | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, *, loop=None", "target": "req: self | opt: loop | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "task, limit", "target": "req: task, limit | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, limit=_DEFAULT_LIMIT, loop=None", "target": "req: self | opt: limit, loop | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, loop=None", "target": "req: self | opt: loop | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, sock, buf, nbytes=0", "target": "req: self, sock, buf | opt: nbytes | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, firstweekday=0, locale=None", "target": "req: self | opt: firstweekday, locale | var: -", "n_params": 3, "complex": false, "module": "calendar"}
+{"sig": "client_connected_cb, path=None, *, limit=_DEFAULT_LIMIT, **kwds", "target": "req: client_connected_cb | opt: path, limit | var: **kwds", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "loop=None", "target": "req: - | opt: loop | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, coro, *, context=None", "target": "req: self, coro | opt: context | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, handle, timeout=None", "target": "req: self, handle | opt: timeout | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "dirlist=None", "target": "req: - | opt: dirlist | var: -", "n_params": 1, "complex": false, "module": "tempfile"}
+{"sig": "server_side, server_hostname", "target": "req: server_side, server_hostname | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "fp1, fp2", "target": "req: fp1, fp2 | opt: - | var: -", "n_params": 2, "complex": false, "module": "genericpath"}
+{"sig": "self, suffix=None, prefix=None, dir=None, ignore_cleanup_errors=False, *, delete=True", "target": "req: self | opt: suffix, prefix, dir, ignore_cleanup_errors, delete | var: -", "n_params": 6, "complex": false, "module": "tempfile"}
+{"sig": "self, fut, sock, address", "target": "req: self, fut, sock, address | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, file, name, delete=True, delete_on_close=True", "target": "req: self, file, name | opt: delete, delete_on_close | var: -", "n_params": 5, "complex": false, "module": "tempfile"}
+{"sig": "self, protocol_factory, cmd, *, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, **kwargs", "target": "req: self, protocol_factory, cmd | opt: stdin, stdout, stderr | var: **kwargs", "n_params": 7, "complex": false, "module": "asyncio"}
+{"sig": "dir_fd, path", "target": "req: dir_fd, path | opt: - | var: -", "n_params": 2, "complex": false, "module": "tempfile"}
+{"sig": "cb", "target": "req: cb | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, host, port, family, flags", "target": "req: self, host, port, family, flags | opt: - | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, sock, file, offset, count", "target": "req: self, sock, file, offset, count | opt: - | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "r, g, b", "target": "req: r, g, b | opt: - | var: -", "n_params": 3, "complex": false, "module": "colorsys"}
+{"sig": "self, coro, *, loop=None, name=None, context=None, eager_start=False", "target": "req: self, coro | opt: loop, name, context, eager_start | var: -", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "self, day, width", "target": "req: self, day, width | opt: - | var: -", "n_params": 3, "complex": false, "module": "calendar"}
+{"sig": "self, exc=None", "target": "req: self | opt: exc | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, separator=b'\\n'", "target": "req: self | opt: separator | var: -", "n_params": 2, "complex": true, "module": "asyncio"}
+{"sig": "self, waiter", "target": "req: self, waiter | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, extra=None", "target": "req: self | opt: extra | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, fd", "target": "req: self, fd | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, firstweekday=0", "target": "req: self | opt: firstweekday | var: -", "n_params": 2, "complex": false, "module": "calendar"}
+{"sig": "proto, data", "target": "req: proto, data | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, partial, expected", "target": "req: self, partial, expected | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "cls, trans, key, ov, *, empty_result", "target": "req: cls, trans, key, ov, empty_result | opt: - | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, watcher", "target": "req: self, watcher | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "mode='w+b', buffering=-1, encoding=None, newline=None, suffix=None, prefix=None, dir=None, *, errors=None", "target": "req: - | opt: mode, buffering, encoding, newline, suffix, prefix, dir, errors | var: -", "n_params": 8, "complex": true, "module": "tempfile"}
+{"sig": "self, ov, event, wait_handle, *, loop=None", "target": "req: self, ov, event, wait_handle | opt: loop | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, sockaddr, flags=0", "target": "req: self, sockaddr | opt: flags | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, *, limit=None", "target": "req: self | opt: limit | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, exc", "target": "req: self, exc | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, theyear, width=3, css='calendar.css', encoding=None", "target": "req: self, theyear | opt: width, css, encoding | var: -", "n_params": 5, "complex": true, "module": "calendar"}
+{"sig": "self, theyear, width=3", "target": "req: self, theyear | opt: width | var: -", "n_params": 3, "complex": false, "module": "calendar"}
+{"sig": "self, windows=_os.name == 'nt', unlink=_os.unlink", "target": "req: self | opt: windows, unlink | var: -", "n_params": 3, "complex": true, "module": "tempfile"}
+{"sig": "high, low, kb", "target": "req: high, low, kb | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "namespace, name", "target": "req: namespace, name | opt: - | var: -", "n_params": 2, "complex": false, "module": "uuid"}
+{"sig": "self, transport, protocol, reader, loop", "target": "req: self, transport, protocol, reader, loop | opt: - | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, fd, callback, *args", "target": "req: self, fd, callback | opt: - | var: *args", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "dir, pre, suf, flags, output_type", "target": "req: dir, pre, suf, flags, output_type | opt: - | var: -", "n_params": 5, "complex": false, "module": "tempfile"}
+{"sig": "main, *, debug=None, loop_factory=None", "target": "req: main | opt: debug, loop_factory | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, day", "target": "req: self, day | opt: - | var: -", "n_params": 2, "complex": false, "module": "calendar"}
+{"sig": "fs, timeout, return_when, loop", "target": "req: fs, timeout, return_when, loop | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, app_protocol", "target": "req: self, app_protocol | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, exc, message='Fatal error on transport'", "target": "req: self, exc | opt: message | var: -", "n_params": 3, "complex": true, "module": "asyncio"}
+{"sig": "self, transport, protocol, sslcontext, *, server_side=False, server_hostname=None, ssl_handshake_timeout=None, ssl_shutdown_timeout=None", "target": "req: self, transport, protocol, sslcontext | opt: server_side, server_hostname, ssl_handshake_timeout, ssl_shutdown_timeout | var: -", "n_params": 8, "complex": false, "module": "asyncio"}
+{"sig": "self, fd, callback", "target": "req: self, fd, callback | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "client_connected_cb, host=None, port=None, *, limit=_DEFAULT_LIMIT, **kwds", "target": "req: client_connected_cb | opt: host, port, limit | var: **kwds", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, parties", "target": "req: self, parties | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, sock, protocol, waiter=None, extra=None, server=None", "target": "req: self, sock, protocol | opt: waiter, extra, server | var: -", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "loop, coro, *, name=None, context=None", "target": "req: loop, coro | opt: name, context | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, max_size=0, mode='w+b', buffering=-1, encoding=None, newline=None, suffix=None, prefix=None, dir=None, *, errors=None", "target": "req: self | opt: max_size, mode, buffering, encoding, newline, suffix, prefix, dir, errors | var: -", "n_params": 10, "complex": true, "module": "tempfile"}
+{"sig": "self, loop", "target": "req: self, loop | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "callback", "target": "req: callback | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, theyear, w=0, l=0, c=6, m=3", "target": "req: self, theyear | opt: w, l, c, m | var: -", "n_params": 6, "complex": false, "module": "calendar"}
+{"sig": "coro, loop", "target": "req: coro, loop | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, signal", "target": "req: self, signal | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, address, *, family=0, type=socket.SOCK_STREAM, proto=0, flags=0, loop", "target": "req: self, address, loop | opt: family, type, proto, flags | var: -", "n_params": 7, "complex": false, "module": "asyncio"}
+{"sig": "self, listener", "target": "req: self, listener | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, fileno, offset", "target": "req: self, fileno, offset | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, sock, data", "target": "req: self, sock, data | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "future, other", "target": "req: future, other | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "args, kwargs, *, debug=False", "target": "req: args, kwargs | opt: debug | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, list_of_data", "target": "req: self, list_of_data | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, et, exc, tb", "target": "req: self, et, exc, tb | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, host, port, family, type, proto, flags", "target": "req: self, host, port, family, type, proto, flags | opt: - | var: -", "n_params": 7, "complex": false, "module": "asyncio"}
+{"sig": "self, fd, fut, handle=None", "target": "req: self, fd, fut | opt: handle | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "coro, *, name=None, context=None", "target": "req: coro | opt: name, context | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, year, width=3", "target": "req: self, year | opt: width | var: -", "n_params": 3, "complex": false, "module": "calendar"}
+{"sig": "self, exc_type, exc_value, exc_traceback", "target": "req: self, exc_type, exc_value, exc_traceback | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, exception", "target": "req: self, exception | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, aws, timeout", "target": "req: self, aws, timeout | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, sock: socket.socket", "target": "req: self, sock | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, et, exc", "target": "req: self, et, exc | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, protocol", "target": "req: self, protocol | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, fp, decomp_factory, trailing_error=(), **decomp_args", "target": "req: self, fp, decomp_factory | opt: trailing_error | var: **decomp_args", "n_params": 5, "complex": true, "module": "_compression"}
+{"sig": "self, exc_type, exc, tb", "target": "req: self, exc_type, exc, tb | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "month", "target": "req: month | opt: - | var: -", "n_params": 1, "complex": false, "module": "calendar"}
+{"sig": "addrinfos, first_address_family_count=1", "target": "req: addrinfos | opt: first_address_family_count | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "tuple", "target": "req: tuple | opt: - | var: -", "n_params": 1, "complex": false, "module": "calendar"}
+{"sig": "year, month", "target": "req: year, month | opt: - | var: -", "n_params": 2, "complex": false, "module": "calendar"}
+{"sig": "self, nbytes", "target": "req: self, nbytes | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "func, path, exc, direntry=None, dir_fd=None", "target": "req: func, path, exc | opt: direntry, dir_fd | var: -", "n_params": 5, "complex": false, "module": "tempfile"}
+{"sig": "self, conn, buf, flags=0", "target": "req: self, conn, buf | opt: flags | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, message, consumed", "target": "req: self, message, consumed | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "cls, name, warn_message, ignore_errors=False, delete=True", "target": "req: cls, name, warn_message | opt: ignore_errors, delete | var: -", "n_params": 5, "complex": false, "module": "tempfile"}
+{"sig": "coro_or_future, *, loop=None", "target": "req: coro_or_future | opt: loop | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, item, heappush=heapq.heappush", "target": "req: self, item | opt: heappush | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, conn, buf, flags=0, addr=None", "target": "req: self, conn, buf | opt: flags, addr | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, protocol_factory, local_addr=None, remote_addr=None, *, family=0, proto=0, flags=0, reuse_port=None, allow_broadcast=None, sock=None", "target": "req: self, protocol_factory | opt: local_addr, remote_addr, family, proto, flags, reuse_port, allow_broadcast, sock | var: -", "n_params": 10, "complex": false, "module": "asyncio"}
+{"sig": "self, loop, sock, protocol, waiter=None, extra=None, server=None", "target": "req: self, loop, sock, protocol | opt: waiter, extra, server | var: -", "n_params": 7, "complex": false, "module": "asyncio"}
+{"sig": "program, *args, stdin=None, stdout=None, stderr=None, limit=streams._DEFAULT_LIMIT, **kwds", "target": "req: program | opt: stdin, stdout, stderr, limit | var: *args, **kwds", "n_params": 7, "complex": false, "module": "asyncio"}
+{"sig": "host=None, port=None, *, limit=_DEFAULT_LIMIT, **kwds", "target": "req: - | opt: host, port, limit | var: **kwds", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, coro, *, name=None, context=None", "target": "req: self, coro | opt: name, context | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "p, sep, altsep, extsep", "target": "req: p, sep, altsep, extsep | opt: - | var: -", "n_params": 4, "complex": false, "module": "genericpath"}
+{"sig": "filename, encoding=None", "target": "req: filename | opt: encoding | var: -", "n_params": 2, "complex": false, "module": "trace"}
+{"sig": "self, protocol_factory, path=None, *, ssl=None, sock=None, server_hostname=None, ssl_handshake_timeout=None, ssl_shutdown_timeout=None", "target": "req: self, protocol_factory | opt: path, ssl, sock, server_hostname, ssl_handshake_timeout, ssl_shutdown_timeout | var: -", "n_params": 8, "complex": false, "module": "asyncio"}
+{"sig": "suffix=None, prefix=None, dir=None", "target": "req: - | opt: suffix, prefix, dir | var: -", "n_params": 3, "complex": false, "module": "tempfile"}
+{"sig": "self, theyear, themonth, width, withyear=True", "target": "req: self, theyear, themonth, width | opt: withyear | var: -", "n_params": 5, "complex": false, "module": "calendar"}
+{"sig": "when: Optional[float]", "target": "req: when | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, pid, pidfd, callback, args", "target": "req: self, pid, pidfd, callback, args | opt: - | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, heappop=heapq.heappop", "target": "req: self | opt: heappop | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, limit, loop", "target": "req: self, limit, loop | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "selector, fd, event", "target": "req: selector, fd, event | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "y, i, q", "target": "req: y, i, q | opt: - | var: -", "n_params": 3, "complex": false, "module": "colorsys"}
+{"sig": "source, dest", "target": "req: source, dest | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "waiter, *args", "target": "req: waiter | opt: - | var: *args", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, f=None", "target": "req: self | opt: f | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, ov, handle, wait_handle, *, loop=None", "target": "req: self, ov, handle, wait_handle | opt: loop | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, sock, protocol, address=None, waiter=None, extra=None", "target": "req: self, sock, protocol | opt: address, waiter, extra | var: -", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "handle", "target": "req: handle | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, count=1, trace=1, countfuncs=0, countcallers=0, ignoremods=(), ignoredirs=(), infile=None, outfile=None, timing=False", "target": "req: self | opt: count, trace, countfuncs, countcallers, ignoremods, ignoredirs, infile, outfile, timing | var: -", "n_params": 10, "complex": true, "module": "trace"}
+{"sig": "self, pipe", "target": "req: self, pipe | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, year, month", "target": "req: self, year, month | opt: - | var: -", "n_params": 3, "complex": false, "module": "calendar"}
+{"sig": "mode='w+b', buffering=-1, encoding=None, newline=None, suffix=None, prefix=None, dir=None, delete=True, *, errors=None, delete_on_close=True", "target": "req: - | opt: mode, buffering, encoding, newline, suffix, prefix, dir, delete, errors, delete_on_close | var: -", "n_params": 10, "complex": true, "module": "tempfile"}
+{"sig": "exc", "target": "req: exc | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "coro_fns, delay, *, loop=None", "target": "req: coro_fns, delay | opt: loop | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "*, duplex=False, overlapped=(True, True), bufsize=BUFSIZE", "target": "req: - | opt: duplex, overlapped, bufsize | var: -", "n_params": 3, "complex": true, "module": "asyncio"}
+{"sig": "self, callback, args, loop, context=None", "target": "req: self, callback, args, loop | opt: context | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, transp", "target": "req: self, transp | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, fn", "target": "req: self, fn | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, sig, callback, *args", "target": "req: self, sig, callback | opt: - | var: *args", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, enabled", "target": "req: self, enabled | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "command, args, heading", "target": "req: command, args, heading | opt: - | var: -", "n_params": 3, "complex": false, "module": "uuid"}
+{"sig": "self, pid, returncode, transp", "target": "req: self, pid, returncode, transp | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, coro, **kwargs", "target": "req: self, coro | opt: - | var: **kwargs", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, waiters", "target": "req: self, waiters | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, sizehint", "target": "req: self, sizehint | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "policy", "target": "req: policy | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, path, lines, lnotab, lines_hit, encoding=None", "target": "req: self, path, lines, lnotab, lines_hit | opt: encoding | var: -", "n_params": 6, "complex": false, "module": "trace"}
+{"sig": "self, when: Optional[float]", "target": "req: self, when | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "sock", "target": "req: sock | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, theyear, themonth, w=0, l=0", "target": "req: self, theyear, themonth | opt: w, l | var: -", "n_params": 5, "complex": false, "module": "calendar"}
+{"sig": "self, sock, protocol, waiter=None, *, extra=None, server=None", "target": "req: self, sock, protocol | opt: waiter, extra, server | var: -", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "self, agen", "target": "req: self, agen | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "self, fut", "target": "req: self, fut | opt: - | var: -", "n_params": 2, "complex": false, "module": "asyncio"}
+{"sig": "year, month, day", "target": "req: year, month, day | opt: - | var: -", "n_params": 3, "complex": false, "module": "calendar"}
+{"sig": "self, sock, protocol, waiter=None, extra=None", "target": "req: self, sock, protocol | opt: waiter, extra | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, fut, sock, bufsize", "target": "req: self, fut, sock, bufsize | opt: - | var: -", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "custom_task_constructor", "target": "req: custom_task_constructor | opt: - | var: -", "n_params": 1, "complex": false, "module": "asyncio"}
+{"sig": "self, loop, sock, protocol, extra=None, server=None", "target": "req: self, loop, sock, protocol | opt: extra, server | var: -", "n_params": 6, "complex": false, "module": "asyncio"}
+{"sig": "self, *, debug=None, loop_factory=None", "target": "req: self | opt: debug, loop_factory | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, callback, *args, context=None", "target": "req: self, callback | opt: context | var: *args", "n_params": 4, "complex": false, "module": "asyncio"}
+{"sig": "self, sock, buf", "target": "req: self, sock, buf | opt: - | var: -", "n_params": 3, "complex": false, "module": "asyncio"}
+{"sig": "self, msg, stdin, stdout, stderr", "target": "req: self, msg, stdin, stdout, stderr | opt: - | var: -", "n_params": 5, "complex": false, "module": "asyncio"}
+{"sig": "self, args, stdin=None, stdout=None, stderr=None, **kwds", "target": "req: self, args | opt: stdin, stdout, stderr | var: **kwds", "n_params": 6, "complex": false, "module": "asyncio"}

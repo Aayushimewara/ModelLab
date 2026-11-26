@@ -1,0 +1,77 @@
+== stage: baselines
+4 runs planned, 0 already done, 4 to run
+[1/4]    44s  baseline-zeroshot {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 2.8251, 'peak_rss_mb': 1129.2, 'val_em': 0.0, 'test_em': 0.0}
+[2/4]    51s  baseline-1shot-random {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 2.8251, 'peak_rss_mb': 1162.6, 'val_em': 0.0, 'test_em': 0.0}
+[3/4]    60s  baseline-3shot-random {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 2.8251, 'peak_rss_mb': 1191.5, 'val_em': 0.0, 'test_em': 0.0}
+[4/4]    69s  baseline-3shot-retrieved {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 2.8251, 'peak_rss_mb': 1348.3, 'val_em': 0.0, 'test_em': 0.0}
+== stage: tune
+9 runs planned, 0 already done, 9 to run
+[1/9]   139s  tune-mfull-lr0p0003 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 3.731, 'peak_rss_mb': 2351.3, 'val_em': 0.7623}
+[2/9]   147s  tune-mfull-lr0p001 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 6.5901, 'peak_rss_mb': 2332.2, 'val_em': 0.716}
+[3/9]   147s  tune-mfull-lr0p003 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 9.5718, 'peak_rss_mb': 2347.2, 'val_em': 0.5679}
+[4/9]   233s  tune-mlora-lr0p001 {'trainable_params': 236544, 'general_loss_before': 2.8251, 'general_loss_after': 3.3838, 'peak_rss_mb': 2750.7, 'val_em': 0.6451}
+[5/9]   226s  tune-mlora-lr0p003 {'trainable_params': 236544, 'general_loss_before': 2.8251, 'general_loss_after': 3.8318, 'peak_rss_mb': 2742.1, 'val_em': 0.787}
+[6/9]   231s  tune-mlora-lr0p01 {'trainable_params': 236544, 'general_loss_before': 2.8251, 'general_loss_after': 6.5166, 'peak_rss_mb': 2765.4, 'val_em': 0.6019}
+[7/9]   265s  tune-mqlora-lr0p001 {'trainable_params': 236544, 'general_loss_before': 2.8349, 'general_loss_after': 7.7315, 'peak_rss_mb': 2624.9, 'val_em': 0.0}
+== stage: tune
+9 runs planned, 7 already done, 2 to run
+== stage: baselines
+4 runs planned, 4 already done, 0 to run
+== stage: tune
+9 runs planned, 6 already done, 3 to run
+[1/3]   291s  tune-mqlora-lr0p001 {'trainable_params': 236544, 'general_loss_before': 2.8349, 'general_loss_after': 3.3867, 'peak_rss_mb': 2857.8, 'val_em': 0.6698}
+[2/3]   282s  tune-mqlora-lr0p003 {'trainable_params': 236544, 'general_loss_before': 2.8349, 'general_loss_after': 3.7851, 'peak_rss_mb': 2897.4, 'val_em': 0.7685}
+[3/3]   281s  tune-mqlora-lr0p01 {'trainable_params': 236544, 'general_loss_before': 2.8349, 'general_loss_after': 6.3004, 'peak_rss_mb': 2856.9, 'val_em': 0.5741}
+chosen learning rates: {'full': 0.0003, 'lora': 0.003, 'qlora': 0.003}
+== stage: main
+9 runs planned, 0 already done, 9 to run
+== stage: baselines
+4 runs planned, 4 already done, 0 to run
+== stage: tune
+11 runs planned, 9 already done, 2 to run
+[1/2]   154s  tune-mfull-lr3e-5 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 3.0063, 'peak_rss_mb': 2349.8, 'val_em': 0.5926}
+[2/2]   152s  tune-mfull-lr0p0001 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 3.2178, 'peak_rss_mb': 2353.0, 'val_em': 0.7037}
+chosen learning rates: {'full': 0.0003, 'lora': 0.003, 'qlora': 0.003}
+== stage: main
+9 runs planned, 0 already done, 9 to run
+[1/9]   171s  main-mfull-s0 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 3.731, 'peak_rss_mb': 2402.0, 'val_em': 0.7623, 'test_em': 0.6604}
+[2/9]   292s  main-mlora-s0 {'trainable_params': 236544, 'general_loss_before': 2.8251, 'general_loss_after': 3.8318, 'peak_rss_mb': 2768.6, 'val_em': 0.787, 'test_em': 0.7794}
+[3/9]   324s  main-mqlora-s0 {'trainable_params': 236544, 'general_loss_before': 2.8349, 'general_loss_after': 3.7851, 'peak_rss_mb': 2874.3, 'val_em': 0.7685, 'test_em': 0.7907}
+[4/9]   159s  main-mfull-s1 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 3.7786, 'peak_rss_mb': 2333.2, 'val_em': 0.7593, 'test_em': 0.6591}
+[5/9]   272s  main-mlora-s1 {'trainable_params': 236544, 'general_loss_before': 2.8251, 'general_loss_after': 3.9219, 'peak_rss_mb': 2740.1, 'val_em': 0.7716, 'test_em': 0.7857}
+[6/9]   307s  main-mqlora-s1 {'trainable_params': 236544, 'general_loss_before': 2.8349, 'general_loss_after': 3.843, 'peak_rss_mb': 2779.8, 'val_em': 0.8025, 'test_em': 0.7807}
+[7/9]   163s  main-mfull-s2 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 3.7578, 'peak_rss_mb': 2340.5, 'val_em': 0.7469, 'test_em': 0.6629}
+[8/9]   262s  main-mlora-s2 {'trainable_params': 236544, 'general_loss_before': 2.8251, 'general_loss_after': 3.7833, 'peak_rss_mb': 2709.9, 'val_em': 0.8148, 'test_em': 0.7995}
+[9/9]   318s  main-mqlora-s2 {'trainable_params': 236544, 'general_loss_before': 2.8349, 'general_loss_after': 3.7051, 'peak_rss_mb': 2867.2, 'val_em': 0.7623, 'test_em': 0.7757}
+== stage: ablate
+26 runs planned, 0 already done, 26 to run
+== stage: ablate
+26 runs planned, 0 already done, 26 to run
+[1/26]   305s  rank-r1-s0 {'trainable_params': 29568, 'general_loss_before': 2.8251, 'general_loss_after': 3.4352, 'peak_rss_mb': 2512.9, 'val_em': 0.6019, 'test_em': 0.5815}
+[2/26]   233s  rank-r2-s0 {'trainable_params': 59136, 'general_loss_before': 2.8251, 'general_loss_after': 3.5079, 'peak_rss_mb': 2732.9, 'val_em': 0.679, 'test_em': 0.6692}
+[3/26]   220s  rank-r4-s0 {'trainable_params': 118272, 'general_loss_before': 2.8251, 'general_loss_after': 3.666, 'peak_rss_mb': 2740.8, 'val_em': 0.7222, 'test_em': 0.7444}
+[4/26]   233s  rank-r16-s0 {'trainable_params': 473088, 'general_loss_before': 2.8251, 'general_loss_after': 4.1122, 'peak_rss_mb': 2688.4, 'val_em': 0.8056, 'test_em': 0.7782}
+[5/26]   241s  rank-r32-s0 {'trainable_params': 946176, 'general_loss_before': 2.8251, 'general_loss_after': 5.0424, 'peak_rss_mb': 2783.5, 'val_em': 0.7932, 'test_em': 0.7694}
+[6/26]   162s  targets-tattn-s0 {'trainable_params': 98304, 'general_loss_before': 2.8251, 'general_loss_after': 3.5068, 'peak_rss_mb': 2495.4, 'val_em': 0.6698, 'test_em': 0.7143}
+[7/26]   180s  targets-tmlp-s0 {'trainable_params': 138240, 'general_loss_before': 2.8251, 'general_loss_after': 3.698, 'peak_rss_mb': 2559.2, 'val_em': 0.6543, 'test_em': 0.6704}
+[8/26]    64s  data-mfull-n100-s0 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 3.2347, 'peak_rss_mb': 1427.1, 'val_em': 0.2747, 'test_em': 0.2356}
+== stage: ablate
+26 runs planned, 8 already done, 18 to run
+[1/18]   176s  data-mlora-n100-s0 {'trainable_params': 236544, 'general_loss_before': 2.8251, 'general_loss_after': 3.513, 'peak_rss_mb': 1562.3, 'val_em': 0.4012, 'test_em': 0.3321}
+[2/18]    71s  data-mfull-n300-s0 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 3.3329, 'peak_rss_mb': 1807.1, 'val_em': 0.3519, 'test_em': 0.4248}
+[3/18]   117s  data-mlora-n300-s0 {'trainable_params': 236544, 'general_loss_before': 2.8251, 'general_loss_after': 3.572, 'peak_rss_mb': 2115.6, 'val_em': 0.5031, 'test_em': 0.505}
+[4/18]    90s  data-mfull-n1000-s0 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 3.4727, 'peak_rss_mb': 2120.4, 'val_em': 0.6914, 'test_em': 0.5915}
+[5/18]   156s  data-mlora-n1000-s0 {'trainable_params': 236544, 'general_loss_before': 2.8251, 'general_loss_after': 3.6263, 'peak_rss_mb': 2460.9, 'val_em': 0.6636, 'test_em': 0.6529}
+[6/18]   245s  rank-r1-s1 {'trainable_params': 29568, 'general_loss_before': 2.8251, 'general_loss_after': 3.5163, 'peak_rss_mb': 2510.3, 'val_em': 0.5988, 'test_em': 0.5589}
+[7/18]   252s  rank-r2-s1 {'trainable_params': 59136, 'general_loss_before': 2.8251, 'general_loss_after': 3.5306, 'peak_rss_mb': 2685.4, 'val_em': 0.6698, 'test_em': 0.6617}
+[8/18]   258s  rank-r4-s1 {'trainable_params': 118272, 'general_loss_before': 2.8251, 'general_loss_after': 3.8064, 'peak_rss_mb': 2757.5, 'val_em': 0.7377, 'test_em': 0.7419}
+[9/18]   258s  rank-r16-s1 {'trainable_params': 473088, 'general_loss_before': 2.8251, 'general_loss_after': 4.1734, 'peak_rss_mb': 2712.9, 'val_em': 0.8117, 'test_em': 0.792}
+[10/18]   257s  rank-r32-s1 {'trainable_params': 946176, 'general_loss_before': 2.8251, 'general_loss_after': 4.9862, 'peak_rss_mb': 2774.5, 'val_em': 0.7963, 'test_em': 0.7744}
+[11/18]   185s  targets-tattn-s1 {'trainable_params': 98304, 'general_loss_before': 2.8251, 'general_loss_after': 3.4888, 'peak_rss_mb': 2404.2, 'val_em': 0.6605, 'test_em': 0.7268}
+[12/18]   211s  targets-tmlp-s1 {'trainable_params': 138240, 'general_loss_before': 2.8251, 'general_loss_after': 3.8312, 'peak_rss_mb': 2562.4, 'val_em': 0.6543, 'test_em': 0.6654}
+[13/18]    69s  data-mfull-n100-s1 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 3.1914, 'peak_rss_mb': 1476.5, 'val_em': 0.2994, 'test_em': 0.2419}
+[14/18]   104s  data-mlora-n100-s1 {'trainable_params': 236544, 'general_loss_before': 2.8251, 'general_loss_after': 3.4022, 'peak_rss_mb': 1644.4, 'val_em': 0.4012, 'test_em': 0.3246}
+[15/18]    72s  data-mfull-n300-s1 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 3.2923, 'peak_rss_mb': 1835.6, 'val_em': 0.4846, 'test_em': 0.4323}
+[16/18]    98s  data-mlora-n300-s1 {'trainable_params': 236544, 'general_loss_before': 2.8251, 'general_loss_after': 3.496, 'peak_rss_mb': 2086.4, 'val_em': 0.5617, 'test_em': 0.5276}
+[17/18]    89s  data-mfull-n1000-s1 {'trainable_params': 5868800, 'general_loss_before': 2.8251, 'general_loss_after': 3.476, 'peak_rss_mb': 2056.0, 'val_em': 0.642, 'test_em': 0.584}
+[18/18]   144s  data-mlora-n1000-s1 {'trainable_params': 236544, 'general_loss_before': 2.8251, 'general_loss_after': 3.6866, 'peak_rss_mb': 2401.7, 'val_em': 0.6358, 'test_em': 0.683}

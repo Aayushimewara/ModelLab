@@ -1,0 +1,11 @@
+Failed to load CPU gemm_4bit_forward from kernels-community: No module named 'kernels'. Please make sure you already `pip install kernels` and the kernels >= 0.11.1
+Loading weights:   0%|          | 0/56 [00:00<?, ?it/s]Loading weights: 100%|██████████| 56/56 [00:00<00:00, 6488.96it/s]
+Loading weights:   0%|          | 0/56 [00:00<?, ?it/s]Loading weights: 100%|██████████| 56/56 [00:00<00:00, 4742.01it/s]
+/usr/local/lib/python3.13/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+Loading weights:   0%|          | 0/56 [00:00<?, ?it/s]Loading weights: 100%|██████████| 56/56 [00:00<00:00, 5891.17it/s]
+Loading weights:   0%|          | 0/56 [00:00<?, ?it/s]Loading weights:   5%|▌         | 3/56 [00:00<00:02, 21.66it/s]Loading weights: 100%|██████████| 56/56 [00:00<00:00, 234.97it/s]
+Full model                       batch1   147.6   batch16  1345.3
+LoRA, adapter kept separate      batch1   102.2   batch16   905.6
+LoRA, adapter merged             batch1   147.0   batch16  1272.8
+QLoRA, 4-bit base + adapter      batch1    90.7   batch16   723.8
